@@ -1,2 +1,3 @@
 date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2022-12-23,?,Microsoft bug reports lead to ranking on Microsoft MSRC Quarterly Leaderboard (Q3 2022),https://infosecwriteups.com/microsoft-bug-reports-lead-to-ranking-on-microsoft-msrc-quarterly-leaderboard-q3-2022-c6c9f70e2ccd,Supakiad S. (m3ez),https://x.com/Supakiad_Mee,blog,false,?
+2024-08-07,?,Persistent XSS on Microsoft Bing.com by poisoning Bingbot indexing,https://infosecwriteups.com/persistent-xss-vulnerability-on-microsoft-bings-video-indexing-system-a46db992ac7b,Supakiad S. (m3ez),https://x.com/Supakiad_Mee,blog,false,?
