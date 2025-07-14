@@ -77,27 +77,58 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 - **[Oct 28 - $???]** [Blind SSRF in Skype (Microsoft)](https://infosecwriteups.com/blind-ssrf-in-skype-microsoft-6639f4961052)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Oct 28 - $???]** [Blind SSRF in Skype (Microsoft)](https://infosecwriteups.com/blind-ssrf-in-skype-microsoft-6639f4961052)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Oct 12 - $???]** [$6000 with Microsoft Hall of Fame | Microsoft Firewall Bypass | CRLF to XSS | Microsoft Bug Bounty](https://infosecwriteups.com/6000-with-microsoft-hall-of-fame-microsoft-firewall-bypass-crlf-to-xss-microsoft-bug-bounty-8f6615c47922)[*](#) by [Neh Patel](https://x.com/thecyberneh)
+- **[Sep 08 - $???]** [New technique 403 bypass lyncdiscover.microsoft.com](https://infosecwriteups.com/403-bypass-lyncdiscover-microsoft-com-db2778458c33)[*](#) by [Abbas.heybati](https://x.com/abbas_heybati)
+- **[Jul 28 - $???]** [Reading Message from Microsoft’s Private Yammer Group](https://mearegtu.medium.com/reading-message-from-microsofts-private-yammer-group-6be844639bca)[*](#) by [Meareg](https://mearegtu.medium.com/)
+- **[Jul 13 - $6,000]** [Microsoft Teams — Cross Site Scripting (XSS) Bypass CSP](https://medium.com/@numanturle/microsoft-teams-stored-xss-bypass-csp-8b4a7f5fccbf)[*](#) by [numanturle](https://x.com/numanturle)
+- **[Jun 01 - $20,000]** [Microsoft Dynamics Container Sandbox RCE via Unauthenticated Docker Remote API 20,000$ Bounty](https://hencohen10.medium.com/microsoft-dynamics-container-sandbox-rce-via-unauthenticated-docker-remote-api-20-000-bounty-7f726340a93b)[*](#) by [Chen Cohen](https://x.com/chencococococo)
+- **[Apr 21 - $???]** [Microsoft Cloud Security Research – Public Disclosure – Gaining Unlimited access to graph AuditLogs endpoint using complex filters with non-privileged user account](https://securecloud.blog/2022/04/21/microsoft-cloud-security-research-public-disclosure-gaining-unlimited-access-to-graph-auditlogs-endpoint-using-complex-filters-with-non-privileged-user-account/)[*](#) by [Joosua Santasalo](https://x.com/santasalojoosua)
+- **[Mar 18 - $???]** [Insecure Direct Object Reference Exposes all users of Microsoft Azure Independent Software Vendors](https://mearegtu.medium.com/insecure-direct-object-reference-exposes-all-users-of-microsoft-azure-independent-software-vendors-bed3b45e509)[*](#) by [Meareg](https://mearegtu.medium.com/)
+- **[Mar 18 - $???]** [Microsoft Teams — Cross Site Scripting (XSS) Bypass CSP](https://medium.com/@numanturle/microsoft-teams-stored-xss-bypass-csp-8b4a7f5fccbf)[*](#) by [numanturle](https://x.com/numanturle)
+- **[Mar 09 - $???]** [Escalating from Logic App Contributor to Root Owner in Azure](https://www.netspi.com/blog/technical-blog/cloud-penetration-testing/azure-logic-app-contributor-escalation-to-root-owner/)[*](#) by [Josh Magri](https://www.netspi.com/authors/josh-magri/)
+- **[Mar 07 - $???]** [AutoWarp: Critical Cross-Account Vulnerability in Microsoft Azure Automation Service](https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/)[*](#) by [Yanir Tsarimi](https://x.com/Yanir_)
+- **[Jan 25 - $???]** [First Valid BUG Finding At Microsoft And I Got the Acknowledgments Page Microsoft](https://aidilarf.medium.com/first-valid-bug-finding-at-microsoft-and-i-got-the-acknowledgments-page-microsoft-a2c185c53074)[*](#) by [Aidil Arief](https://aidilarf.medium.com/)
 
 ### 2021:
 
+- **[Dec 15 - $???]** [Improper Authorization could allow access to more than 100,000 Microsoft Dynamics 365 for Partner Users](https://mearegtu.medium.com/broken-access-control-cc6cfd793b15)[*](#) by [Meareg](https://mearegtu.medium.com/)
+- **[Sep 15 - $???]** [Microsoft Azure Portal – Persistent Cross-Site Scripting](https://www.y-security.de/news-en/microsoft-azure-portal-persistent-cross-site-scripting/index.html)[*](#) by [Y-Security](https://x.com/ysecurity)
+- **[Sep 13 - $???]** [Escalating Azure Privileges with the Log Analytics Contributor Role](https://www.netspi.com/blog/technical-blog/cloud-penetration-testing/escalating-azure-privileges-with-the-log-analystics-contributor-role/)[*](#) by [Karl Fosaaen](https://x.com/kfosaaen)
+- **[Sep 09 - $???]** [Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances/)[*](#) by [Yuval Avrahami](https://x.com/yuvalavra)
 - **[Jun 25 - $20,000]** [How We Are Able To Hack Any Company By Sending Message – $20,000 Bounty [CVE-2021–34506]](https://blog.cyberxplore.com/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/)[*](#) by [Th3Pr0xyB0y](https://x.com/th3pr0xyb0y)
+- **[Jun 24 - $???]** [Microsoft Store free purschase vulnerabilites](https://gccybermonks.com/posts/msstorebypass/)[*](#) by [Marlon Fabiano](https://x.com/astrounder)
+- **[Apr 25 - $???]** [Reflected XSS on Microsoft](https://n45ht.or.id/blog/reflected-xss-on-microsoft/)[*](#) by [Choirur Rizal](https://n45ht.or.id/blog/author/choirurrizal/)
+- **[Apr 02 - $50,000]** [How I Might Have Hacked Any Microsoft Account](https://thezerohack.com/how-i-might-have-hacked-any-microsoft-account)[*](#) by [Laxman Muthiyah](https://x.com/laxmanmuthiyah)
+- **[Feb 15 - $30,000]** [I Own your Cloud Shell: Taking over “Azure Cloud Shell” Kubernetes Cluster Through Unsecured Kubelet API 30,000$ Bounty](https://hencohen10.medium.com/i-own-your-cloud-shell-taking-over-azure-cloud-shell-kubernetes-cluster-through-unsecured-558621519cf9)[*](#) by [Chen Cohen](https://x.com/chencococococo)
+- **[Jan 22 - $10,000]** [$10,000 for automatic email confirmation bug in Microsoft’s Edge browser](https://0xkaran.medium.com/10-000-for-automatic-email-confirmation-bug-in-microsofts-edge-browser-22f15ceccb4a)[*](#) by [Karan Chaudhary](https://x.com/0xkaran)
+- **[Jan 10 - $2,000]** [Unauthorized Access to OData Entities + $2K Bounty From Microsoft](https://infosecwriteups.com/unauthorized-access-to-odata-entities-2k-bounty-from-microsoft-e070b2ef88c2)[*](#) by [Borna Nematzadeh](https://x.com/LogicalHunter)
 
 ### 2020:
 
+- **[Nov 15 - $???]** [Microsoft Bug Bounty Writeup – Stored XSS Vulnerability](https://www.pethuraj.com/blog/microsoft-bug-bounty-writeup-stored-xss-vulnerability/)[*](#) by [Pethuraj](https://x.com/Pethuraj)
+- **[Jul 05 - $???]** [Taking Over Files in a chat —IDOR in Microsoft Teams](https://medium.com/@alyanwar/taking-over-files-in-a-chat-idor-in-microsoft-teams-e5289c2efd0)[*](#) by [Aly Anwar](https://x.com/alyanwarr)
+- **[Jul 04 - $???]** [How I got hall of fame in Microsoft](https://medium.com/@noneofyou/how-i-got-hall-of-fame-in-microsoft-9b507dec3860)[*](#) by [Akash basnet](https://medium.com/@noneofyou)
+- **[Jun 28 - $3,000]** [Taking over Azure DevOps Accounts with 1 Click](https://www.assetnote.io/resources/research/taking-over-azure-devops-accounts-with-1-click)[*](#) by [Sean Yeoh](https://x.com/seanyeoh)
+- **[May 27 - $3,000]** [iOS Outlook Stored XSS Write-Up($3000)](https://medium.com/kminthein/ios-outlook-stored-xss-write-up-ce34d7da192b)[*](#) by [kminthein](https://medium.com/@kminthein)
 - **[May 19 - $???]** [Reflected XSS on microsoft.com subdomains](https://infosecwriteups.com/reflected-xss-on-microsoft-com-subdomains-4bdfc2c716df)[*](#) by [Raimonds Liepins](https://raimonds-29140.medium.com)
+- **[May 14 - $1,000]** [My Weirdest Bug Bounty — Getting PII from O365.](https://omaidfaizyar.medium.com/my-weirdest-bug-bounty-getting-pii-from-o365-b4477f4739e)[*](#) by [Omaid Faizyar](https://omaidfaizyar.medium.com/)
 - **[May 02 - $???]** [Reflected XSS on Microsoft.com via Angular Js template injection](https://infosecwriteups.com/reflected-xss-on-microsoft-com-via-angular-template-injection-2e26d80a7fd8)[*](#) by [Pratik Dabhi](https://x.com/impratikdabhi)
 - **[Jan 21 - $???]** [Cross Site Request Forgery vulnerability Leads to User Profile Change in Microsoft Express Logic](https://ad3sh.medium.com/cross-site-request-forgery-vulnerability-leads-to-user-profile-change-in-microsoft-express-logic-dc3481ab47ba)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
+- **[Jan 06 - $???]** [Saying Goodbye to my Favorite 5 Minute](https://www.allysonomalley.com/2020/01/06/saying-goodbye-to-my-favorite-5-minute-p1/)[*](#) by [Allyson O'Malley](https://x.com/ally_o_malley)
 
 ### 2019:
 
 - **[Jul 09 - $???]** [Discovering an Undisclosed Stack Overflow Vulnerability in Microsoft SQL Server (CVE-2019-1068)](https://cems.fun/2021/02/06/cve-2019-1068.html)[*](#) by [cem](https://x.com/cemonatk)
 - **[May 09 - $???]** [Stored XSS on Techprofile Microsoft](https://medium.com/@kang_ali/stored-xss-on-techprofile-microsoft-d21757588cc1)[*](#) by [Mohammad Ali Syarief](https://medium.com/@kang_ali)
+- **[Apr 19 - $???]** [From http:// domain to res:// domain xss by using IE Adobe’s PDF ActiveX plugin](https://80vul.medium.com/from-http-domain-to-res-domain-xss-by-using-ie-adobes-pdf-activex-plugin-9f2a72a87aff)[*](#) by [heige](https://x.com/80vul)
+- **[Apr 14 - $1,000]** [$1,000 USD, XSS STORED IN OUTLOOK.COM (IOS BROWSERS)](https://omespino.com/write-up-1000-usd-in-5-minutes-xss-stored-in-outlook-com-ios-browsers/)[*](#) by [Omar Espino](https://x.com/omespino)
+- **[Feb 06 - $???]** [Remote Code Execution via Path Traversal in the Device Metadata Authoring Wizard](https://posts.specterops.io/remote-code-execution-via-path-traversal-in-the-device-metadata-authoring-wizard-a0d5839fc54f)[*](#) by [Lee Chagolla-Christensen](https://x.com/tifkin_)
 
 ### 2018:
 
 - **[Oct 12 - $500]** [Microsoft CSRF Vulnerability](https://ad3sh.medium.com/how-i-got-500-from-microsoft-for-csrf-vulnerability-700accaf48b9)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
 - **[Jul 13 - $???]** [XSS in Microsoft subdomain](https://sudhanshur705.medium.com/xss-in-microsoft-subdomain-81c4e46d6631)[*](#) by [Sudhanshu Rajbhar](https://twitter.com/sudhanshur705)
 - **[May 18 - $???]** [Xss in Microsoft](https://medium.com/@hacker_eth/xss-in-microsoft-7a70416aee75)[*](#) by [hacker_eth](https://medium.com/@hacker_eth)
+- **[Apr 15 - $1,500]** [Bypass CSP by Abusing XSS Filter in Edge](https://infosecwriteups.com/bypass-csp-by-abusing-xss-filter-in-edge-43e9106a9754)[*](#) by [Xiaoyin Liu](https://x.com/general_nfs)
 
 ### 2017:
 
