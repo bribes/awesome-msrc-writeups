@@ -90,26 +90,26 @@ def builder():
     
     writeups = parse_writeups(writeups_csv)
 
-    for writeup in writeups:
+    #for writeup in writeups:
 
         # Tweet new writeups
-        if writeup["tweeted"] == "false":
-            print("[+] Tweeting " + writeup["url"])
-            mention = True
-            author = parse_twitter_user(writeup["author-url"])
-            if author == False:
-                mention = False
-                author = writeup["author"]
-            if new_tweet(writeup["title"], writeup["bounty"], author, writeup["url"], mention=mention) == True:
-                writeup["tweeted"] = "true"
-                print("[+] Writeup " + writeup["url"] + " tweeted and updated successfully")
+        #if writeup["tweeted"] == "false":
+            #print("[+] Tweeting " + writeup["url"])
+            #mention = True
+            #author = parse_twitter_user(writeup["author-url"])
+            #if author == False:
+            #    mention = False
+            #    author = writeup["author"]
+            #if new_tweet(writeup["title"], writeup["bounty"], author, writeup["url"], mention=mention) == True:
+            #    writeup["tweeted"] = "true"
+            #    print("[+] Writeup " + writeup["url"] + " tweeted and updated successfully")
         
         # Archive writeups
-        if writeup["archive-url"] == "?":
-            if writeup["type"] != "video":
-                archive_url = archive(writeup["url"])
-                if archive_url != False:
-                    writeup["archive-url"] = archive_url
+        #if writeup["archive-url"] == "?":
+        #    if writeup["type"] != "video":
+        #        archive_url = archive(writeup["url"])
+        #        if archive_url != False:
+        #            writeup["archive-url"] = archive_url
 
     # Generate new README.md
     csv_to_readme.generate_readme(writeups, readme_md)
