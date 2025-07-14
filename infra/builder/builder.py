@@ -7,7 +7,7 @@ twitter_cs = os.getenv("AGVRPW_TWITTER_CS", "")
 twitter_rk = os.getenv("AGVRPW_TWITTER_RK", "")
 twitter_rs = os.getenv("AGVRPW_TWITTER_RS", "")
 workspace_dir = os.getenv("GITHUB_WORKSPACE")
-repo_url = "https://github.com/xdavidhu/awesome-google-vrp-writeups"
+repo_url = "https://github.com/bribes/awesome-msrc-writeups"
 
 def random_string(length):
     return "".join(random.SystemRandom().choice(string.ascii_uppercase + string.ascii_lowercase + string.digits) for _ in range(length))
@@ -40,7 +40,7 @@ def new_tweet(title, bounty, author, url, mention=False):
 
     author_string = "@" + author if mention else author
     bounty_string = "???" if bounty == "?" else f"{float(bounty):,g}"
-    tweet_string = f"New Google VRP writeup \"{title}\" for a bounty of ${bounty_string} by {author_string}:\n{url}"
+    tweet_string = f"New MSRC writeup \"{title}\" for a bounty of ${bounty_string} by {author_string}:\n{url}"
     try:
         r = twitter.post("https://api.twitter.com/2/tweets", json={"text": tweet_string})
         if r.status_code == 201:
