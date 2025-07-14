@@ -47,18 +47,40 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 - **[May 28 - $???]** [Multiple vulnerabilities in Eclipse ThreadX](https://security.humanativaspa.it/multiple-vulnerabilities-in-eclipse-threadx/)[*](#) by [Marco Ivaldi](https://x.com/0xdea)
 - **[May 11 - $???]** [My Hunt: Discovering Microsoft Bugs](https://c0d3x27.medium.com/my-hunt-discovering-microsoft-bugs-f6a9c790bec0)[*](#) by [c0d3x27](https://x.com/c0d3x27)
 - **[May 07 - $???]** [Lethal Injection: How We Hacked Microsoft's Healthcare Chat Bot](https://www.breachproof.net/blog/lethal-injection-how-we-hacked-microsoft-ai-chat-bot)[*](#) by [Yanir Tsarimi](https://x.com/Yanir_)
+- **[Feb 09 - $???]** [JSON CSRF in Microsoft Bing Maps Collections](https://infosecwriteups.com/json-csrf-in-microsoft-bing-maps-collections-74afc2b197d5)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Jan 31 - $???]** [Azure Devops Zero-Click CI/CD Vulnerability](https://www.legitsecurity.com/blog/azure-devops-zero-click-ci/cd-vulnerability)[*](#) by [Nadav Noy](https://x.com/nadavnoy)
+- **[Jan 15 - $???]** [Unrestricted File Upload Lead to Stored XSS at Microsoft main domain](https://medium.com/@cavdarbashas/unrestricted-file-upload-lead-to-stored-xss-at-microsoft-main-domain-baa9cadac6bd)[*](#) by [Sokol Çavdarbasha](https://x.com/sokolicav)
 
 ### 2023:
 
+- **[Oct 04 - $???]** [2023 Microsoft Office XSS](https://blog.pksecurity.io/2023/10/04/microsoft-office.html)[*](#) by [adm1nkyj1](https://x.com/adm1nkyj1)
+- **[Jul 31 - $7,500]** [Knocking on the Front Door (client side desync attack on Azure CDN)](https://blog.jeti.pw/posts/knocking-on-the-front-door/)[*](#) by [Jeti](https://x.com/0xJeti)
+- **[Jul 31 - $150,000]** [How I Hacked Microsoft Teams and got $150,000 in Pwn2Own](https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own)[*](#) by [Masato Kinugawa](https://x.com/kinugawamasato)
 - **[Jun 27 - $???]** [How I found DOM XSS via postMessage on Bing.com - Microsoft Bug Bounty](https://namcoder.com/blog/how-i-found-dom-xss-on-bingcom-microsoft-bug-bounty-write-up/)[*](#) by [Nam Le](https://x.com/namcoder_com)
+- **[Jun 14 - $???]** [Two XSS Vulnerabilities in Azure with Embedded postMessage IFrames](https://orca.security/resources/blog/examining-two-xss-vulnerabilities-in-azure-services/)[*](#) by [Lidor Ben Shitrit](https://orca.security/resources/author/lidor-ben-shitrit/)
+- **[Jun 03 - $???]** [Send email from anyone to any(user outlook Microsoft)](https://orca.security/resources/blog/examining-two-xss-vulnerabilities-in-azure-services/)[*](#) by [Abbas.heybati](https://x.com/abbas_heybati)
+- **[May 04 - $???]** [Uncovering 3 Azure API Management Vulnerabilities – When Good APIs Go Bad](https://www.tenable.com/blog/uncovering-3-azure-api-management-vulnerabilities-when-good-apis-go-bad)[*](#) by [Liv Matan](https://x.com/terminatorLM)
+- **[Apr 21 - $???]** [XS-Leak: Deanonymize Microsoft Skype Users by any 3rd-party websites](https://infosecwriteups.com/xs-leak-deanonymize-microsoft-skype-users-by-any-3rd-party-website-69849e4501a8)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Apr 20 - $???]** [2 XSS on Microsoft](https://medium.com/@nikouei_com/2-xss-on-microsoft-37b6a7efcc84)[*](#) by [Mohammad Nikouei](https://x.com/NikoueiMohammad)
+- **[Mar 30 - $???]** [Super FabriXss: From XSS to an RCE in Azure Service Fabric Explorer by Abusing an Event Tab Cluster Toggle (CVE-2023-23383)](https://orca.security/resources/blog/super-fabrixss-azure-vulnerability/)[*](#) by [Lidor Ben Shitrit](https://orca.security/resources/author/lidor-ben-shitrit/)
+- **[Mar 29 - $???]** [BingBang: AAD misconfiguration led to Bing.com results manipulation and account takeover](https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration)[*](#) by [Hillai Ben-Sasson](https://x.com/hillai)
+- **[Mar 23 - $???]** [Escalating Privileges with Azure Function Apps](https://www.netspi.com/blog/technical-blog/cloud-penetration-testing/azure-function-apps/)[*](#) by [Karl Fosaaen](https://x.com/kfosaaen)
 - **[Feb 22 - $???]** [How I found DOM-Based XSS on Microsoft MSRC and How they fixed it](https://infosecwriteups.com/how-i-found-dom-based-xss-on-microsoft-msrc-and-how-they-fixed-it-8b71a6020c82)[*](#) by [Supakiad S. (m3ez)](https://x.com/Supakiad_Mee)
+- **[Feb 18 - $???]** [Hacking the Search Bar: The Story of Discovering and Reporting an XSS Vulnerability on Bing.com](https://medium.com/@niraj1mahajan/hacking-the-search-bar-the-story-of-discovering-and-reporting-an-xss-vulnerability-on-bing-com-cac2f241835)[*](#) by [Niraj Mahajan](https://x.com/niraj1mahajan)
 - **[Jan 21 - $3,000]** [Reflected XSS Leads to 3,000$ Bug Bounty Rewards from Microsoft Forms](https://infosecwriteups.com/reflected-xss-leads-to-3-000-bug-bounty-rewards-from-microsoft-forms-efe34fc6b261)[*](#) by [Supakiad S. (m3ez)](https://x.com/Supakiad_Mee)
+- **[Jan 17 - $???]** [How Orca Found Server-Side Request Forgery (SSRF) Vulnerabilities in Four Different Azure Services](https://orca.security/resources/blog/ssrf-vulnerabilities-in-four-azure-services/)[*](#) by [Lidor Ben Shitrit](https://orca.security/resources/author/lidor-ben-shitrit/)
 
 ### 2022:
 
+- **[Dec 26 - $???]** [Stored XSS vulnerability in Microsoft booking](https://mtechghost.medium.com/stored-xss-vulnerability-in-microsoft-booking-e593de3344e0)[*](#) by [Mrtechghost](https://x.com/Mrtechghost)
 - **[Dec 23 - $???]** [Microsoft bug reports lead to ranking on Microsoft MSRC Quarterly Leaderboard (Q3 2022)](https://infosecwriteups.com/microsoft-bug-reports-lead-to-ranking-on-microsoft-msrc-quarterly-leaderboard-q3-2022-c6c9f70e2ccd)[*](#) by [Supakiad S. (m3ez)](https://x.com/Supakiad_Mee)
+- **[Oct 28 - $???]** [Blind SSRF in Skype (Microsoft)](https://infosecwriteups.com/blind-ssrf-in-skype-microsoft-6639f4961052)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
+- **[Oct 28 - $???]** [Blind SSRF in Skype (Microsoft)](https://infosecwriteups.com/blind-ssrf-in-skype-microsoft-6639f4961052)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
+- **[Oct 12 - $???]** [$6000 with Microsoft Hall of Fame | Microsoft Firewall Bypass | CRLF to XSS | Microsoft Bug Bounty](https://infosecwriteups.com/6000-with-microsoft-hall-of-fame-microsoft-firewall-bypass-crlf-to-xss-microsoft-bug-bounty-8f6615c47922)[*](#) by [Neh Patel](https://x.com/thecyberneh)
+
+### 2021:
+
+- **[Jun 25 - $20,000]** [How We Are Able To Hack Any Company By Sending Message – $20,000 Bounty [CVE-2021–34506]](https://blog.cyberxplore.com/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/)[*](#) by [Th3Pr0xyB0y](https://x.com/th3pr0xyb0y)
 
 ### 2020:
 
@@ -68,6 +90,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2019:
 
+- **[Jul 09 - $???]** [Discovering an Undisclosed Stack Overflow Vulnerability in Microsoft SQL Server (CVE-2019-1068)](https://cems.fun/2021/02/06/cve-2019-1068.html)[*](#) by [cem](https://x.com/cemonatk)
 - **[May 09 - $???]** [Stored XSS on Techprofile Microsoft](https://medium.com/@kang_ali/stored-xss-on-techprofile-microsoft-d21757588cc1)[*](#) by [Mohammad Ali Syarief](https://medium.com/@kang_ali)
 
 ### 2018:
@@ -81,6 +104,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 - **[Dec 21 - $???]** [Microsoft SharePoint’s `Follow` Feature XSS (CVE-2017–8514) -Adesh Kolte](https://ad3sh.medium.com/microsoft-sharepoints-follow-feature-xss-cve-2017-8514-adesh-kolte-d78d701cd064)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
 - **[Nov 06 - $???]** [Get your Microsoft account hijacked by simply clicking connect button -Adesh Kolte](https://ad3sh.medium.com/get-your-microsoft-account-hijacked-by-simply-clicking-connect-button-adesh-kolte-cc0b335b0221)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
 - **[Nov 05 - $???]** [Non-persistent XSS at Microsoft -Adesh Kolte](https://ad3sh.medium.com/non-persistent-xss-at-microsoft-adesh-kolte-ad36b1b4a325)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
+- **[Sep 12 - $5,000]** [Uncovering a Bug I Found in Outlook: How Could an Account Has Been Compromised?](https://cems.fun/2022/12/26/CVE-2017-8758.html)[*](#) by [cem](https://x.com/cemonatk)
 
 ### 2016:
 
