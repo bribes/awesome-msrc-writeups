@@ -137,7 +137,16 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 - **[Nov 06 - $???]** [Get your Microsoft account hijacked by simply clicking connect button -Adesh Kolte](https://ad3sh.medium.com/get-your-microsoft-account-hijacked-by-simply-clicking-connect-button-adesh-kolte-cc0b335b0221)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
 - **[Nov 05 - $???]** [Non-persistent XSS at Microsoft -Adesh Kolte](https://ad3sh.medium.com/non-persistent-xss-at-microsoft-adesh-kolte-ad36b1b4a325)[*](#) by [Adesh Kolte](https://x.com/AdeshKolte)
 - **[Sep 12 - $5,000]** [Uncovering a Bug I Found in Outlook: How Could an Account Has Been Compromised?](https://cems.fun/2022/12/26/CVE-2017-8758.html)[*](#) by [cem](https://x.com/cemonatk)
+- **[Jun 06 - $???]** [DOM Based XSS In Microsoft](https://www.rafaybaloch.com/2017/06/dom-based-xss-in-microsoft.html)[*](#) by [Rafay Baloch](https://x.com/rafaybaloch)
 
 ### 2016:
 
+- **[Jul 24 - $???]** [Remote Code Execution (RCE) on Microsoft's 'signout.live.com'](https://www.kernelpicnic.net/2016/07/24/Microsoft-signout.live.com-Remote-Code-Execution-Write-Up.html)[*](#) by [Peter Adkins](https://x.com/darkarnium)
+- **[Jun 10 - $???]** [Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing)](https://infosecwriteups.com/two-vulnerabilities-makes-an-exploit-xss-and-csrf-in-bing-cd4269da7b69)[*](#) by [Sai Krishna Kothapalli](https://x.com/kmskrishna)
 - **[May 18 - $???]** [Microsoft Yammer Clickjacking - Exploiting HTML5 Security Features](https://seekurity.com/blog/2016/05/18/admin/general/microsoft-yammer-clickjacking-exploiting-html5-security-features)[*](#) by [Mohamed A. Baset](https://seekurity.com/blog/author/admin)
+- **[Apr 03 - $???]** [Obtaining Login Tokens for an Outlook, Office or Azure Account](https://whitton.io/articles/obtaining-tokens-outlook-office-azure-account/)[*](#) by [Jack](https://x.com/fin1te)
+- **[Jan 23 - $???]** [Broken Access Control in bingmapsportal](https://infosecwriteups.com/broken-access-control-in-bingmapsportal-a012bffd2c43)[*](#) by [Sai Krishna Kothapalli](https://x.com/kmskrishna)
+
+### 2015:
+
+- **[Dec 31 - $???]** [Leaking API keys in Bing Maps Portal](https://infosecwriteups.com/how-i-got-listed-in-microsoft-hall-of-fame-8f96ca4535c2)[*](#) by [Sai Krishna Kothapalli](https://x.com/kmskrishna)
