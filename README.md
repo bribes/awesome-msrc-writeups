@@ -1,4 +1,4 @@
-# Awesome MSRC (Microsoft) Writeups
+# Awesome MSRC Writeups
 🐛 A list of writeups from the MSRC (Microsoft) Bug Bounty program
 
 *\*writeups: **not just** writeups*
