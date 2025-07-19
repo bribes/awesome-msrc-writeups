@@ -21,6 +21,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2025:
 
+- **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.top/break-into-any-microsoft-building)[*](#) by [Faav](https://x.com/efaav)
 - **[Jun 29 - $???]** [Triple Trouble: Bypassing Sanitization to Steal Microsoft Tokens](https://melotover.medium.com/triple-trouble-bypassing-sanitization-to-steal-microsoft-tokens-d89a68be7ab2)[*](#) by [Asem Eleraky](https://x.com/Melotover)
 - **[Apr 20 - $???]** [Escalating Impact: Full Account Takeover in Microsoft via XSS in Login Flow](https://melotover.medium.com/escalating-impact-full-account-takeover-in-microsoft-via-xss-in-login-flow-f160fa79b008)[*](#) by [Asem Eleraky](https://x.com/Melotover)
 
