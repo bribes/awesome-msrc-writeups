@@ -21,7 +21,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2025:
 
-- **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be)[*](#) by [Gouri Sankar A](https://medium.com/@gourisankara357)
+- **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be)[*](#) by [Gouri Sankar A](https://x.com/g0w6y)
 - **[Jul 19 - $???]** [How I Found an XSS Vulnerability in a Microsoft subdomain](https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9)[*](#) by [Anonymousshetty](https://medium.com/@anonymousshetty2003)
 - **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.top/break-into-any-microsoft-building)[*](#) by [Faav](https://x.com/efaav)
 - **[Jun 29 - $???]** [Triple Trouble: Bypassing Sanitization to Steal Microsoft Tokens](https://melotover.medium.com/triple-trouble-bypassing-sanitization-to-steal-microsoft-tokens-d89a68be7ab2)[*](#) by [Asem Eleraky](https://x.com/Melotover)
