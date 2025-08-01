@@ -21,7 +21,6 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2025:
 
-- **[Oct 25 - $0]** [How I Accessed Microsoft’s ServiceNow — Exposing ALL Microsoft Employee emails]( Chat Support Transcripts & Attachments)[*](#) by [https://medium.com/@moblig/how-i-accessed-microsofts-servicenow-exposing-all-microsoft-employee-emails-chat-support-5f8d535eb63b](https://x.com/moblig_)
 - **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be)[*](#) by [Gouri Sankar A](https://medium.com/@gourisankara357)
 - **[Jul 19 - $???]** [How I Found an XSS Vulnerability in a Microsoft subdomain](https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9)[*](#) by [Anonymousshetty](https://medium.com/@anonymousshetty2003)
 - **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.top/break-into-any-microsoft-building)[*](#) by [Faav](https://x.com/efaav)
@@ -30,6 +29,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2024:
 
+- **[Oct 24 - $0]** [How I Accessed Microsoft’s ServiceNow — Exposing ALL Microsoft Employee emails, Chat Support Transcripts & Attachments](https://medium.com/@moblig/how-i-accessed-microsofts-servicenow-exposing-all-microsoft-employee-emails-chat-support-5f8d535eb63b)[*](None) by [https://x.com/moblig_](blog)
 - **[Oct 08 - $3,000]** [From 401 — Unauthorized Access to 3000 $ Bounty from Microsoft.](https://medium.com/@bashir69emceeaka5/from-401-unauthorized-access-to-3000-bounty-from-microsoft-53b086379a08)[*](#) by [Bashir Mohamed (BlackPanther87)](https://x.com/Panther82Black)
 - **[Oct 08 - $5,000]** [How I got a 5000 $ Bounty from Microsoft](https://medium.com/@bashir69emceeaka5/how-i-got-a-5000-bounty-from-microsoft-fb2e27fd40f7)[*](#) by [Bashir Mohamed (BlackPanther87)](https://x.com/Panther82Black)
 - **[Sep 13 - $???]** [Escalating from Reader to Contributor in Azure API Management](https://binarysecurity.no/posts/2024/09/apim-privilege-escalation)[*](#) by [Christian Håland](https://x.com/christianhland)
