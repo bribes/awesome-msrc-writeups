@@ -21,6 +21,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2025:
 
+- **[Oct 25 - $0]** [How I Accessed Microsoft’s ServiceNow — Exposing ALL Microsoft Employee emails]( Chat Support Transcripts & Attachments)[*](#) by [https://medium.com/@moblig/how-i-accessed-microsofts-servicenow-exposing-all-microsoft-employee-emails-chat-support-5f8d535eb63b](https://x.com/moblig_)
 - **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be)[*](#) by [Gouri Sankar A](https://medium.com/@gourisankara357)
 - **[Jul 19 - $???]** [How I Found an XSS Vulnerability in a Microsoft subdomain](https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9)[*](#) by [Anonymousshetty](https://medium.com/@anonymousshetty2003)
 - **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.top/break-into-any-microsoft-building)[*](#) by [Faav](https://x.com/efaav)
