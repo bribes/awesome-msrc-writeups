@@ -3,6 +3,8 @@
 
 *\*writeups: **not just** writeups*
 
+Based off the [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups) repository.
+
 ## Contributing:
 
 If you know of any writeups/videos not listed in this repository, feel free to open a Pull Request.
