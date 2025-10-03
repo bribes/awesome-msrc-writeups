@@ -7,7 +7,7 @@ def generate_readme(writeups, output_file):
 
     with open(output_file, "w") as output:
         output.write("# Awesome MSRC Writeups\n🐛 A list of writeups from the MSRC (Microsoft) Bug Bounty program\n\n*\*writeups: **not just** writeups*\n\n")
-        output.write("Based of the [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups) repository.\n\n")
+        output.write("Based off the [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups) repository.\n\n")
         #output.write("**Follow [@msrc_writeups](https://twitter.com/msrc_writeups) on Twitter to get new writeups straight into your feed!**\n\n")
         output.write("## Contributing:\n\nIf you know of any writeups/videos not listed in this repository, feel free to open a Pull Request.\n\nTo add a new writeup, simply add a new line to `writeups.csv`:\n```\n[YYYY-MM-DD],[bounty],[title],[url],[author-name],[author-url],[type],false,?\n```\n*If a value is not available, write `?`.*<br>\n*The value of `type` can either be `blog` or `video`.*<br>\n*If any of the fields include a `,`, please wrap the value in quotes.*<br>\n*Please keep the last two fields set to `false` and `?`. The automation will modify these fields.*<br>\n*If available, set `author-url` to the author's Twitter URL, so the automation can @mention the author.*\n")
         output.write("\n## Writeups:\n")
