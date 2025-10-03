@@ -14,7 +14,7 @@ def parse_writeups(writeups_csv):
 
 def archive(url):
     print(f"[+] Archinving '{url}'")
-    headers = {"User-Agent": "https://github.com/xdavidhu/awesome-google-vrp-writeups"}
+    headers = {"User-Agent": "https://github.com/bribes/awesome-msrc-writeups"}
     url = urllib.parse.quote(url)
 
     try:

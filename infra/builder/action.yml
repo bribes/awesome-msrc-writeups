@@ -1,4 +1,4 @@
-name: "AGVRP Builder Container"
+name: "AMSRC Builder Container"
 runs:
   using: "docker"
   image: "Dockerfile"

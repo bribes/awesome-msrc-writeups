@@ -2,10 +2,10 @@ import os, random, string, errno, csv, requests, re, urllib
 from requests_oauthlib import OAuth1Session
 import csv_to_readme
 
-twitter_ck = os.getenv("AGVRPW_TWITTER_CK", "")
-twitter_cs = os.getenv("AGVRPW_TWITTER_CS", "")
-twitter_rk = os.getenv("AGVRPW_TWITTER_RK", "")
-twitter_rs = os.getenv("AGVRPW_TWITTER_RS", "")
+twitter_ck = os.getenv("AMSRCW_TWITTER_CK", "")
+twitter_cs = os.getenv("AMSRCW_TWITTER_CS", "")
+twitter_rk = os.getenv("AMSRCW_TWITTER_RK", "")
+twitter_rs = os.getenv("AMSRCW_TWITTER_RS", "")
 workspace_dir = os.getenv("GITHUB_WORKSPACE")
 repo_url = "https://github.com/bribes/awesome-msrc-writeups"
 
