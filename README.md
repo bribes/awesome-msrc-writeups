@@ -23,6 +23,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2025:
 
+- **[Oct 08 - $0]** [Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases](https://blog.faav.top/microsoft-events-leak-part-i)[*](#) by [Faav](https://x.com/efaav)
 - **[Sep 17 - $???]** [One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/)[*](#) by [Dirk-jan Mollema](https://x.com/_dirkjan)
 - **[Sep 16 - $20,000]** [Cross-Tenant Access Exploit in Microsoft Entra ID: Breaking Governance with a simple trick](https://medium.com/@bashir69emceeaka5/cross-tenant-access-exploit-in-microsoft-entra-id-breaking-governance-with-a-simple-trick-a06d88fe309e)[*](#) by [Bashir Mohamed (BlackPanther87)](https://x.com/Panther82Black)
 - **[Aug 25 - $7,500]** [Microsoft Partner Leak: Leaking Microsoft Employee PII and 700M+ Partner Records](https://blog.faav.top/microsoft-partner-leak)[*](#) by [Faav](https://x.com/efaav)
