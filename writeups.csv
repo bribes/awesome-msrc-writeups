@@ -95,4 +95,5 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2025-08-25,7500,Microsoft Partner Leak: Leaking Microsoft Employee PII and 700M+ Partner Records,https://blog.faav.top/microsoft-partner-leak,Faav,https://x.com/efaav,blog,false,?
 2025-09-16,20000,Cross-Tenant Access Exploit in Microsoft Entra ID: Breaking Governance with a simple trick,https://medium.com/@bashir69emceeaka5/cross-tenant-access-exploit-in-microsoft-entra-id-breaking-governance-with-a-simple-trick-a06d88fe309e,Bashir Mohamed (BlackPanther87),https://x.com/Panther82Black,blog,false,?
 2025-09-17,?,One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens,https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/,Dirk-jan Mollema,https://x.com/_dirkjan,blog,false,?
-2025-10-08,?,Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases,https://blog.faav.top/microsoft-events-leak-part-i,Faav,https://x.com/efaav,blog,false,?
+2025-10-08,0,"Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases",https://blog.faav.top/microsoft-events-leak-part-i,Faav,https://x.com/efaav,blog,false,?
+
