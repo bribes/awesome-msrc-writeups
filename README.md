@@ -119,6 +119,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 ### 2019:
 
 - **[Jul 09 - $???]** [Discovering an Undisclosed Stack Overflow Vulnerability in Microsoft SQL Server (CVE-2019-1068)](https://cems.fun/2021/02/06/cve-2019-1068.html)[*](#) by [cem](https://x.com/cemonatk)
+- **[Jun 18 - $???]** [Chaining Three Bugs to Get RCE in Microsoft AttackSurfaceAnalyzer](https://parsiya.net/blog/2019-06-18-chaining-three-bugs-to-get-rce-in-microsoft-attacksurfaceanalyzer/)[*](#) by [Parsia Hakimian](https://x.com/CryptoGangsta)
 - **[May 09 - $???]** [Stored XSS on Techprofile Microsoft](https://medium.com/@kang_ali/stored-xss-on-techprofile-microsoft-d21757588cc1)[*](#) by [Mohammad Ali Syarief](https://medium.com/@kang_ali)
 - **[Apr 19 - $???]** [From http:// domain to res:// domain xss by using IE Adobe’s PDF ActiveX plugin](https://80vul.medium.com/from-http-domain-to-res-domain-xss-by-using-ie-adobes-pdf-activex-plugin-9f2a72a87aff)[*](#) by [heige](https://x.com/80vul)
 - **[Apr 14 - $1,000]** [$1,000 USD, XSS STORED IN OUTLOOK.COM (IOS BROWSERS)](https://omespino.com/write-up-1000-usd-in-5-minutes-xss-stored-in-outlook-com-ios-browsers/)[*](#) by [Omar Espino](https://x.com/omespino)
