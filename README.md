@@ -48,7 +48,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 - **[May 28 - $???]** [Multiple vulnerabilities in Eclipse ThreadX](https://security.humanativaspa.it/multiple-vulnerabilities-in-eclipse-threadx/)[*](#) by [Marco Ivaldi](https://x.com/0xdea)
 - **[May 11 - $???]** [My Hunt: Discovering Microsoft Bugs](https://c0d3x27.medium.com/my-hunt-discovering-microsoft-bugs-f6a9c790bec0)[*](#) by [c0d3x27](https://x.com/c0d3x27)
 - **[May 07 - $???]** [Lethal Injection: How We Hacked Microsoft's Healthcare Chat Bot](https://www.breachproof.net/blog/lethal-injection-how-we-hacked-microsoft-ai-chat-bot)[*](#) by [Yanir Tsarimi](https://x.com/Yanir_)
-- **[Feb 09 - $???]** [JSON CSRF in Microsoft Bing Maps Collections](https://infosecwriteups.com/json-csrf-in-microsoft-bing-maps-collections-74afc2b197d5)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
+- **[Feb 09 - $0]** [JSON CSRF in Microsoft Bing Maps Collections](https://infosecwriteups.com/json-csrf-in-microsoft-bing-maps-collections-74afc2b197d5)[*](#) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Jan 31 - $???]** [Azure Devops Zero-Click CI/CD Vulnerability](https://www.legitsecurity.com/blog/azure-devops-zero-click-ci/cd-vulnerability)[*](#) by [Nadav Noy](https://x.com/nadavnoy)
 - **[Jan 15 - $???]** [Unrestricted File Upload Lead to Stored XSS at Microsoft main domain](https://medium.com/@cavdarbashas/unrestricted-file-upload-lead-to-stored-xss-at-microsoft-main-domain-baa9cadac6bd)[*](#) by [Sokol Çavdarbasha](https://x.com/sokolicav)
 
@@ -103,7 +103,6 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 - **[Sep 09 - $???]** [Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances/)[*](#) by [Yuval Avrahami](https://x.com/yuvalavra)
 - **[Aug 26 - $40,000]** [Critical Vulnerability in Microsoft Azure Cosmos DB](https://chaosdb.wiz.io/)[*](#) by [Wiz](https://x.com/wiz_io)
 - **[Jun 25 - $20,000]** [How We Are Able To Hack Any Company By Sending Message – $20,000 Bounty [CVE-2021–34506]](https://blog.cyberxplore.com/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/)[*](#) by [Th3Pr0xyB0y](https://x.com/th3pr0xyb0y)
-- **[Jun 24 - $???]** [Microsoft Store free purschase vulnerabilites](https://gccybermonks.com/posts/msstorebypass/)[*](#) by [Marlon Fabiano](https://x.com/astrounder)
 - **[Jun 10 - $???]** [Active Directory forest trusts part 2 - Trust transitivity and finding a trust bypass](https://dirkjanm.io/active-directory-forest-trusts-part-two-trust-transitivity/)[*](#) by [Dirk-jan Mollema](https://x.com/_dirkjan)
 - **[Apr 25 - $???]** [Reflected XSS on Microsoft](https://n45ht.or.id/blog/reflected-xss-on-microsoft/)[*](#) by [Choirur Rizal](https://n45ht.or.id/blog/author/choirurrizal/)
 - **[Apr 02 - $50,000]** [How I Might Have Hacked Any Microsoft Account](https://thezerohack.com/how-i-might-have-hacked-any-microsoft-account)[*](#) by [Laxman Muthiyah](https://x.com/laxmanmuthiyah)
@@ -151,7 +150,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2016:
 
-- **[Jul 24 - $???]** [Remote Code Execution (RCE) on Microsoft's 'signout.live.com'](https://www.kernelpicnic.net/2016/07/24/Microsoft-signout.live.com-Remote-Code-Execution-Write-Up.html)[*](#) by [Peter Adkins](https://x.com/darkarnium)
+- **[Jul 24 - $0]** [Remote Code Execution (RCE) on Microsoft's 'signout.live.com'](https://www.kernelpicnic.net/2016/07/24/Microsoft-signout.live.com-Remote-Code-Execution-Write-Up.html)[*](#) by [Peter Adkins](https://x.com/darkarnium)
 - **[Jun 10 - $???]** [Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing)](https://infosecwriteups.com/two-vulnerabilities-makes-an-exploit-xss-and-csrf-in-bing-cd4269da7b69)[*](#) by [Sai Krishna Kothapalli](https://x.com/kmskrishna)
 - **[May 18 - $???]** [Microsoft Yammer Clickjacking - Exploiting HTML5 Security Features](https://seekurity.com/blog/2016/05/18/admin/general/microsoft-yammer-clickjacking-exploiting-html5-security-features)[*](#) by [Mohamed A. Baset](https://seekurity.com/blog/author/admin)
 - **[Apr 03 - $???]** [Obtaining Login Tokens for an Outlook, Office or Azure Account](https://whitton.io/articles/obtaining-tokens-outlook-office-azure-account/)[*](#) by [Jack](https://x.com/fin1te)
