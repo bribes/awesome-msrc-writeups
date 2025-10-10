@@ -4,7 +4,7 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2016-04-03,?,"Obtaining Login Tokens for an Outlook, Office or Azure Account",https://whitton.io/articles/obtaining-tokens-outlook-office-azure-account/,Jack,https://x.com/fin1te,blog,false,?
 2016-05-18,?,Microsoft Yammer Clickjacking - Exploiting HTML5 Security Features,https://seekurity.com/blog/2016/05/18/admin/general/microsoft-yammer-clickjacking-exploiting-html5-security-features,Mohamed A. Baset,https://seekurity.com/blog/author/admin,blog,false,?
 2016-06-10,?,Two vulnerabilities makes an Exploit!! (XSS and CSRF in Bing),https://infosecwriteups.com/two-vulnerabilities-makes-an-exploit-xss-and-csrf-in-bing-cd4269da7b69,Sai Krishna Kothapalli,https://x.com/kmskrishna,blog,false,?
-2016-07-24,?,Remote Code Execution (RCE) on Microsoft's 'signout.live.com',https://www.kernelpicnic.net/2016/07/24/Microsoft-signout.live.com-Remote-Code-Execution-Write-Up.html,Peter Adkins,https://x.com/darkarnium,blog,false,?
+2016-07-24,0,Remote Code Execution (RCE) on Microsoft's 'signout.live.com',https://www.kernelpicnic.net/2016/07/24/Microsoft-signout.live.com-Remote-Code-Execution-Write-Up.html,Peter Adkins,https://x.com/darkarnium,blog,false,?
 2017-06-06,?,DOM Based XSS In Microsoft,https://www.rafaybaloch.com/2017/06/dom-based-xss-in-microsoft.html,Rafay Baloch,https://x.com/rafaybaloch,blog,false,?
 2017-09-12,5000,Uncovering a Bug I Found in Outlook: How Could an Account Has Been Compromised?,https://cems.fun/2022/12/26/CVE-2017-8758.html,cem,https://x.com/cemonatk,blog,false,?
 2017-11-05,?,Non-persistent XSS at Microsoft -Adesh Kolte,https://ad3sh.medium.com/non-persistent-xss-at-microsoft-adesh-kolte-ad36b1b4a325,Adesh Kolte,https://x.com/AdeshKolte,blog,false,?
@@ -37,7 +37,6 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2021-04-02,50000,How I Might Have Hacked Any Microsoft Account,https://thezerohack.com/how-i-might-have-hacked-any-microsoft-account,Laxman Muthiyah,https://x.com/laxmanmuthiyah,blog,false,?
 2021-04-25,?,Reflected XSS on Microsoft,https://n45ht.or.id/blog/reflected-xss-on-microsoft/,Choirur Rizal,https://n45ht.or.id/blog/author/choirurrizal/,blog,false,?
 2021-06-10,?,Active Directory forest trusts part 2 - Trust transitivity and finding a trust bypass,https://dirkjanm.io/active-directory-forest-trusts-part-two-trust-transitivity/,Dirk-jan Mollema,https://x.com/_dirkjan,blog,false,?
-2021-06-24,?,Microsoft Store free purschase vulnerabilites,https://gccybermonks.com/posts/msstorebypass/,Marlon Fabiano,https://x.com/astrounder,blog,false,?
 2021-06-25,20000,"How We Are Able To Hack Any Company By Sending Message – $20,000 Bounty [CVE-2021–34506]",https://blog.cyberxplore.com/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/,Th3Pr0xyB0y,https://x.com/th3pr0xyb0y,blog,false,?
 2021-08-26,40000,Critical Vulnerability in Microsoft Azure Cosmos DB,https://chaosdb.wiz.io/,Wiz,https://x.com/wiz_io,blog,false,?
 2021-09-09,?,Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances,https://unit42.paloaltonetworks.com/azure-container-instances/,Yuval Avrahami,https://x.com/yuvalavra,blog,false,?
@@ -83,7 +82,7 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2023-10-04,?,2023 Microsoft Office XSS,https://blog.pksecurity.io/2023/10/04/microsoft-office.html,adm1nkyj1,https://x.com/adm1nkyj1,blog,false,?
 2024-01-15,?,Unrestricted File Upload Lead to Stored XSS at Microsoft main domain,https://medium.com/@cavdarbashas/unrestricted-file-upload-lead-to-stored-xss-at-microsoft-main-domain-baa9cadac6bd,Sokol Çavdarbasha,https://x.com/sokolicav,blog,false,?
 2024-01-31,?,Azure Devops Zero-Click CI/CD Vulnerability,https://www.legitsecurity.com/blog/azure-devops-zero-click-ci/cd-vulnerability,Nadav Noy,https://x.com/nadavnoy,blog,false,?
-2024-02-09,?,JSON CSRF in Microsoft Bing Maps Collections,https://infosecwriteups.com/json-csrf-in-microsoft-bing-maps-collections-74afc2b197d5,Jayateertha Guruprasad,https://x.com/jayateerthag,blog,false,?
+2024-02-09,0,JSON CSRF in Microsoft Bing Maps Collections,https://infosecwriteups.com/json-csrf-in-microsoft-bing-maps-collections-74afc2b197d5,Jayateertha Guruprasad,https://x.com/jayateerthag,blog,false,?
 2024-05-07,?,Lethal Injection: How We Hacked Microsoft's Healthcare Chat Bot,https://www.breachproof.net/blog/lethal-injection-how-we-hacked-microsoft-ai-chat-bot,Yanir Tsarimi,https://x.com/Yanir_,blog,false,?
 2024-05-11,?,My Hunt: Discovering Microsoft Bugs,https://c0d3x27.medium.com/my-hunt-discovering-microsoft-bugs-f6a9c790bec0,c0d3x27,https://x.com/c0d3x27,blog,false,?
 2024-05-28,?,Multiple vulnerabilities in Eclipse ThreadX,https://security.humanativaspa.it/multiple-vulnerabilities-in-eclipse-threadx/,Marco Ivaldi,https://x.com/0xdea,blog,false,?
@@ -106,3 +105,4 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2025-09-16,20000,Cross-Tenant Access Exploit in Microsoft Entra ID: Breaking Governance with a simple trick,https://medium.com/@bashir69emceeaka5/cross-tenant-access-exploit-in-microsoft-entra-id-breaking-governance-with-a-simple-trick-a06d88fe309e,Bashir Mohamed (BlackPanther87),https://x.com/Panther82Black,blog,false,?
 2025-09-17,?,One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens,https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/,Dirk-jan Mollema,https://x.com/_dirkjan,blog,false,?
 2025-10-08,0,"Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases",https://blog.faav.top/microsoft-events-leak-part-i,Faav,https://x.com/efaav,blog,false,?
+
