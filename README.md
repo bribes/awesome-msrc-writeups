@@ -23,6 +23,7 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 
 ### 2025:
 
+- **[Oct 21 - $0]** [Microsoft 365 Copilot – Arbitrary Data Exfiltration Via Mermaid Diagrams](https://www.adamlogue.com/microsoft-365-copilot-arbitrary-data-exfiltration-via-mermaid-diagrams-fixed/)[*](#) by [Adam Logue](https://x.com/Adam_Logue)
 - **[Oct 13 - $0]** [Microsoft Events Leak, Part II: Leaking Event Registration Database Again](https://blog.faav.top/microsoft-events-leak-part-ii)[*](#) by [Faav](https://x.com/efaav)
 - **[Oct 08 - $0]** [Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases](https://blog.faav.top/microsoft-events-leak-part-i)[*](#) by [Faav](https://x.com/efaav)
 - **[Sep 17 - $???]** [One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/)[*](#) by [Dirk-jan Mollema](https://x.com/_dirkjan)
