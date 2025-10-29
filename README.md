@@ -24,14 +24,14 @@ To add a new writeup, simply add a new line to `writeups.csv`:
 ### 2025:
 
 - **[Oct 21 - $0]** [Microsoft 365 Copilot – Arbitrary Data Exfiltration Via Mermaid Diagrams](https://www.adamlogue.com/microsoft-365-copilot-arbitrary-data-exfiltration-via-mermaid-diagrams-fixed/)[*](#) by [Adam Logue](https://x.com/Adam_Logue)
-- **[Oct 13 - $0]** [Microsoft Events Leak, Part II: Leaking Event Registration Database Again](https://blog.faav.top/microsoft-events-leak-part-ii)[*](#) by [Faav](https://x.com/efaav)
-- **[Oct 08 - $0]** [Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases](https://blog.faav.top/microsoft-events-leak-part-i)[*](#) by [Faav](https://x.com/efaav)
+- **[Oct 13 - $0]** [Microsoft Events Leak, Part II: Leaking Event Registration Database Again](https://blog.faav.net/microsoft-events-leak-part-ii)[*](#) by [Faav](https://x.com/efaav)
+- **[Oct 08 - $0]** [Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases](https://blog.faav.net/microsoft-events-leak-part-i)[*](#) by [Faav](https://x.com/efaav)
 - **[Sep 17 - $???]** [One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/)[*](#) by [Dirk-jan Mollema](https://x.com/_dirkjan)
 - **[Sep 16 - $20,000]** [Cross-Tenant Access Exploit in Microsoft Entra ID: Breaking Governance with a simple trick](https://medium.com/@bashir69emceeaka5/cross-tenant-access-exploit-in-microsoft-entra-id-breaking-governance-with-a-simple-trick-a06d88fe309e)[*](#) by [Bashir Mohamed (BlackPanther87)](https://x.com/Panther82Black)
-- **[Aug 25 - $7,500]** [Microsoft Partner Leak: Leaking Microsoft Employee PII and 700M+ Partner Records](https://blog.faav.top/microsoft-partner-leak)[*](#) by [Faav](https://x.com/efaav)
+- **[Aug 25 - $7,500]** [Microsoft Partner Leak: Leaking Microsoft Employee PII and 700M+ Partner Records](https://blog.faav.net/microsoft-partner-leak)[*](#) by [Faav](https://x.com/efaav)
 - **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be)[*](#) by [Gouri Sankar A](https://x.com/g0w6y)
 - **[Jul 19 - $???]** [How I Found an XSS Vulnerability in a Microsoft subdomain](https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9)[*](#) by [Arjun Shetty](https://www.linkedin.com/in/arjun-shetty-255049229/)
-- **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.top/break-into-any-microsoft-building)[*](#) by [Faav](https://x.com/efaav)
+- **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.net/break-into-any-microsoft-building)[*](#) by [Faav](https://x.com/efaav)
 - **[Jun 29 - $???]** [Triple Trouble: Bypassing Sanitization to Steal Microsoft Tokens](https://melotover.medium.com/triple-trouble-bypassing-sanitization-to-steal-microsoft-tokens-d89a68be7ab2)[*](#) by [Asem Eleraky](https://x.com/Melotover)
 - **[May 21 - $???]** [Account takeover vulnerability in Azure’s API Management Developer Portal](https://outpost24.com/blog/account-takeover-vulnerability-in-azures-api-management-developer-portal/)[*](#) by [Thomas Stacey](https://x.com/t0xodile)
 - **[May 15 - $???]** [Unveiling the Secrets: SSRF Adventures in Microsoft’s AI Playground](https://poneglyph.cloud/unveiling-the-secrets-ssrf-adventures-in-microsofts-ai-playground/)[*](#) by [elhabtiesoufiane@gmail.com](https://poneglyph.cloud/author/elhabtiesoufianegmail-com/)
