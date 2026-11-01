@@ -2,7 +2,7 @@
 
 🐛 A curated catalog of public security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**172 writeups and talks. Latest publication: 2026-10-28.**
+**173 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
@@ -52,6 +52,7 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Jan 15 - $???]** [MSSQL and SCCM Elevation of Privilege Vulnerabilities](https://specterops.io/blog/2026/01/15/mssql-and-sccm-elevation-of-privilege-vulnerabilities/) by [Chris Thompson](https://specterops.io/blog/)
 - **[Jan 14 - $???]** [Reprompt: The Single-Click Microsoft Copilot Attack that Silently Steals Your Personal Data](https://www.varonis.com/blog/reprompt) by [Dolev Taler](https://www.varonis.com/blog)
 - **[Jan 14 - $???]** [CVE-2026-20965: Tenant-Wide RCE via Azure Windows Admin Center](https://cymulate.com/blog/cve-2026-20965-azure-windows-admin-center-tenant-wide-rce/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
+- **[Jan 02 - $???]** [How “Simple Recon” Led to a High-Severity Microsoft Vulnerability and an MSRC Bounty](https://medium.com/@0xzoro.hack/how-simple-recon-led-to-a-high-severity-microsoft-vulnerability-and-an-msrc-bounty-a9009bac0d3c) by [Sreejith A R](https://medium.com/@0xzoro.hack)
 
 ### 2025
 
