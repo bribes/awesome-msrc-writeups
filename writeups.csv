@@ -162,6 +162,7 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2026-08-15,?,Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations,https://d3sca.medium.com/microsoft-bounty-hunt-from-contacts-to-invoices-via-guest-user-misconfigurations-efaa8bef73f4,Mustafa Mohamed,https://d3sca.medium.com/,blog,false,?
 2026-08-18,?,CoSnitch: When Your AI Assistant Becomes Its Own Whistleblower,https://www.varonis.com/blog/cosnitch,Lior Adar,https://www.varonis.com/blog,blog,false,?
 2026-08-19,5000,"$5,000 Bounty From Microsoft Teams Community Invitation Bypass (CVE-2025-49731)",https://www.kacateknologi.com/en/microsoft-teams-community-invitation-bypass-cve-2025-49731,Muhammad Alqi Fahrezi,https://www.kacateknologi.com/,blog,false,?
+2026-08-24,2500,leaking Microsoft employee secrets through diagnostic data,https://careful.net/blog/powerlift/,careful and Doc,https://careful.net/,blog,false,?
 2026-09-13,?,CVE-2026-69379: TOCTOU in ReFsDedupSvc Enables Arbitrary File Overwrite as SYSTEM,https://blog.airoverflow.com/advisories/cve-2026-69379,AirOverflow,https://blog.airoverflow.com/,blog,false,?
 2026-09-25,5000,How I Could’ve Accessed 17 Trillion Microsoft Records,https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records,Faav,https://x.com/efaav,blog,false,?
 2026-09-30,?,From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669),https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/,Johann Rehberger,https://x.com/wunderwuzzi,blog,false,?

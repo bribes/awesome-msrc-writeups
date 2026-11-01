@@ -2,7 +2,7 @@
 
 🐛 A curated catalog of public security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**171 writeups and talks. Latest publication: 2026-10-28.**
+**172 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
@@ -22,6 +22,7 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Sep 30 - $???]** [From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)](https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/) by [Johann Rehberger](https://x.com/wunderwuzzi)
 - **[Sep 25 - $5,000]** [How I Could’ve Accessed 17 Trillion Microsoft Records](https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records) by [Faav](https://x.com/efaav)
 - **[Sep 13 - $???]** [CVE-2026-69379: TOCTOU in ReFsDedupSvc Enables Arbitrary File Overwrite as SYSTEM](https://blog.airoverflow.com/advisories/cve-2026-69379) by [AirOverflow](https://blog.airoverflow.com/)
+- **[Aug 24 - $2,500]** [leaking Microsoft employee secrets through diagnostic data](https://careful.net/blog/powerlift/) by [careful and Doc](https://careful.net/)
 - **[Aug 19 - $5,000]** [$5,000 Bounty From Microsoft Teams Community Invitation Bypass (CVE-2025-49731)](https://www.kacateknologi.com/en/microsoft-teams-community-invitation-bypass-cve-2025-49731) by [Muhammad Alqi Fahrezi](https://www.kacateknologi.com/)
 - **[Aug 18 - $???]** [CoSnitch: When Your AI Assistant Becomes Its Own Whistleblower](https://www.varonis.com/blog/cosnitch) by [Lior Adar](https://www.varonis.com/blog)
 - **[Aug 15 - $???]** [Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations](https://d3sca.medium.com/microsoft-bounty-hunt-from-contacts-to-invoices-via-guest-user-misconfigurations-efaa8bef73f4) by [Mustafa Mohamed](https://d3sca.medium.com/)
