@@ -1,4 +1,5 @@
-name: "AMSRC Builder Container"
+name: "Awesome MSRC catalog builder"
+description: "Validate writeups.csv and generate README.md"
 runs:
   using: "docker"
   image: "Dockerfile"

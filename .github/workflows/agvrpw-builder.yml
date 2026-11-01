@@ -1,25 +1,72 @@
-name: "AMSRC Builder Action"
-on: [push]
+name: Build and validate catalog
+
+on:
+  pull_request:
+    paths:
+      - writeups.csv
+      - README.md
+      - CONTRIBUTING.md
+      - infra/builder/**
+      - .github/workflows/agvrpw-builder.yml
+  push:
+    branches:
+      - master
+    paths:
+      - writeups.csv
+      - README.md
+      - CONTRIBUTING.md
+      - infra/builder/**
+      - .github/workflows/agvrpw-builder.yml
+  workflow_dispatch:
+
+concurrency:
+  group: catalog-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
 jobs:
-  build-writeups:
+  validate:
     runs-on: ubuntu-latest
     steps:
-    - name: Clone repo
-      uses: actions/checkout@v2.3.4
-    - name: Run the local builder action
-      uses: ./infra/builder
-      env:
-        AMSRCW_TWITTER_CK: ${{ secrets.AMSRCW_TWITTER_CK }}
-        AMSRCW_TWITTER_CS: ${{ secrets.AMSRCW_TWITTER_CS }}
-        AMSRCW_TWITTER_RK: ${{ secrets.AMSRCW_TWITTER_RK }}
-        AMSRCW_TWITTER_RS: ${{ secrets.AMSRCW_TWITTER_RS }}
-    - name: Commit files
-      run: |
-        git config --local user.email "amsrc-builder[bot]@gh.xdavidhu.me"
-        git config --local user.name "amsrc-builder[bot]"
-        git commit -m "Build writeups" -a
-    - name: Push the changes
-      uses: ad-m/github-push-action@057a6ba835d986bfe495dd476a6c4db1d5f9503c
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Validate catalog and test generation
+        run: python infra/builder/csv_to_readme.py writeups.csv README.generated.md
+      - name: Verify generated README is current
+        run: cmp README.md README.generated.md
+      - name: Check whitespace errors
+        run: git diff --check
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Generate README
+        run: python infra/builder/csv_to_readme.py writeups.csv README.md
+      - name: Commit generated README when needed
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md is already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Build writeups"
+          git push

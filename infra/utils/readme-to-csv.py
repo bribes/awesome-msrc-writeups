@@ -1,81 +1,113 @@
+#!/usr/bin/env python3
+"""Recover catalog rows from a generated README.
+
+The CSV remains the source of truth. This utility exists only for recovery and
+migration work.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
 import re
 from datetime import datetime
-import csv
-import sys
+from pathlib import Path
 
-writeup_regex = r"- \*\*\[((\w\w\w) (\d\d)|\?\?\?) - \$([0-9,.]*|\?\?\?)]\*\* \[([^\]]*)\]\(([^\)]*)\) by \[([^\]]*)\]\(([^\)]*)\)"
 
-data = []
-year = 0
-type = "blog"
-introduction = True
+FIELDS = (
+    "date",
+    "bounty",
+    "title",
+    "url",
+    "author",
+    "author-url",
+    "type",
+    "tweeted",
+    "archive-url",
+)
+ENTRY_RE = re.compile(
+    r"^- \*\*\[(?P<date>[A-Z][a-z]{2} \d{2}|\?\?\?) - \$(?P<bounty>[\d,]+|\?\?\?)\]\*\* "
+    r"\[(?P<title>.+)\]\((?P<url>https?://[^)]+)\)"
+    r"(?: \(\[archive\]\((?P<archive>https?://[^)]+)\)\))? by "
+    r"(?P<author>.+?)(?P<video> · video)?$"
+)
+LINKED_AUTHOR_RE = re.compile(r"^\[(?P<name>.+)\]\((?P<url>https?://[^)]+)\)$")
 
-if len(sys.argv) < 3:
-    print("Usage: python3 readme-to-csv.py [readme] [output]")
-    exit()
 
-# loop through every line
-file = open(sys.argv[1], "r")
-for line in file:
-    
-    # skip the introduction
-    if line == "## Blog posts:\n":
-        introduction = False
-        continue
-    if introduction:
-        continue
+def _unescape(value: str) -> str:
+    return value.replace("\\]", "]").replace("\\[", "[").replace("\\\\", "\\")
 
-    # skip the empty lines
-    if line == "\n":
-        continue
-    
-    # update parameters if the line is not a writeup
-    if line.startswith("##"):
-        if "Videos" in line:
-            type = "video"
-            year = 0
-        elif "Unknown Date:" in line:
-            year = 0
-        else:
-            match = re.search(r"\d\d\d\d", line)
-            year = int(match.group(0))
-    else:
-        # parse the data line with writeup_regex
-        match = re.search(writeup_regex, line)
-        
-        if year == 0:
+
+def parse_readme(readme: Path) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    year: int | None = None
+
+    for line_number, line in enumerate(readme.read_text(encoding="utf-8").splitlines(), start=1):
+        if line.startswith("### "):
+            heading = line.removeprefix("### ")
+            year = int(heading) if heading.isdigit() else None
+            continue
+        if not line.startswith("- **["):
+            continue
+
+        match = ENTRY_RE.fullmatch(line)
+        if not match:
+            raise ValueError(f"{readme}:{line_number}: cannot parse generated catalog entry")
+
+        raw_date = match.group("date")
+        if raw_date == "???" or year is None:
             date = "?"
         else:
-            # reformat the date to YYYY-MM-DD
-            date_string = str(year) + " " + match.group(1)
-            datetime_object = datetime.strptime(date_string, "%Y %b %d")
-            date = datetime_object.strftime("%Y-%m-%d")
+            date = datetime.strptime(f"{year} {raw_date}", "%Y %b %d").strftime("%Y-%m-%d")
 
-        # save the row
-        row = {
-            'date': date,
-            'bounty': match.group(4).replace(",", "") if not match.group(4)=="???" else "?",
-            'title': match.group(5),
-            'url': match.group(6),
-            'author': match.group(7) if not match.group(7)=="???" else "?",
-            'author-url': match.group(8) if not match.group(8)=="#" else "?",
-            'type': type,
-            'tweeted': 'true',
-            'archive-url': '?'
-        }
-        data.append(row)
-file.close()
+        raw_author = match.group("author")
+        linked_author = LINKED_AUTHOR_RE.fullmatch(raw_author)
+        if linked_author:
+            author = _unescape(linked_author.group("name"))
+            author_url = linked_author.group("url")
+        else:
+            author = "?" if raw_author == "???" else _unescape(raw_author)
+            author_url = "?"
 
-# prepare the csv headers
-headers = []
-for key in data[0]:
-    headers.append(key)
+        rows.append(
+            {
+                "date": date,
+                "bounty": match.group("bounty").replace(",", "")
+                if match.group("bounty") != "???"
+                else "?",
+                "title": _unescape(match.group("title")),
+                "url": match.group("url"),
+                "author": author,
+                "author-url": author_url,
+                "type": "video" if match.group("video") else "blog",
+                "tweeted": "false",
+                "archive-url": match.group("archive") or "?",
+            }
+        )
 
-# save to csv
-with open(sys.argv[2], "w") as csv_file:
-    writer = csv.DictWriter(csv_file, fieldnames=headers)
-    writer.writeheader()
-    for row in data:
-        writer.writerow(row)
+    if not rows:
+        raise ValueError(f"{readme}: no catalog entries found")
+    return rows
 
-print("[+] Done")
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("readme", type=Path)
+    parser.add_argument("output", type=Path)
+    args = parser.parse_args()
+
+    try:
+        rows = parse_readme(args.readme)
+        with args.output.open("w", encoding="utf-8", newline="") as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=FIELDS, lineterminator="\n")
+            writer.writeheader()
+            writer.writerows(rows)
+    except (OSError, ValueError) as exc:
+        parser.exit(1, f"error: {exc}\n")
+
+    print(f"Recovered {len(rows)} entries into {args.output}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
