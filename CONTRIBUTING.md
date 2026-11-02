@@ -4,9 +4,9 @@ Thanks for helping keep the catalog current. Pull requests are the preferred way
 
 ## What belongs here
 
-Add original, public technical research about a vulnerability in a Microsoft product or service, or a disclosure handled through MSRC. Conference slides and videos are welcome when they contain technical detail. Prefer the researcher's original publication over news coverage, vendor summaries, or pages that merely repeat a CVE description.
+Add original, public technical research about a vulnerability in a Microsoft product or service, or a disclosure handled through MSRC. The publication must come from the finder or discovery team and contain a concrete attack path, technical artifacts, or root-cause analysis. Conference slides and videos are welcome when they meet the same bar.
 
-Please do not add generic security news, product announcements, exploit aggregators, or duplicate mirrors when the original source is still available.
+Do not add CVE bulletins, technical-advisory pages, patch notes, third-party exploit analysis, generic security news, product announcements, exploit aggregators, paywalled posts, or duplicate mirrors. A bounty, CVE, or MSRC acknowledgement does not make an entry sufficiently technical by itself.
 
 ## Add an entry
 
@@ -19,8 +19,8 @@ YYYY-MM-DD,amount-or-?,title,url,author,author-url-or-?,blog-or-video,false,?
 
 - Use the public publication date, not the private report date.
 - Record a bounty only when the source confirms the amount. Use `0` when the source explicitly says no bounty was paid, and `?` when it is unknown.
-- Use the canonical HTTPS URL for the original research.
-- Set `type` to `blog` for articles, advisories, papers, and slide decks; use `video` for video-only entries.
+- Use the canonical HTTPS URL for the original research. If the original domain is dead, hijacked, or no longer serves the article, link directly to a verified Internet Archive snapshot.
+- Set `type` to `blog` for articles, papers, and slide decks; use `video` for video-only entries.
 - Leave `tweeted` as `false` and `archive-url` as `?` for new entries.
 - Quote any CSV field containing a comma.
 

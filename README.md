@@ -1,14 +1,14 @@
 # Awesome MSRC Writeups
 
-🐛 A curated catalog of public security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
+🐛 A curated catalog of original, finder-authored security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**224 writeups and talks. Latest publication: 2026-10-28.**
+**194 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
 ## Contributing
 
-Found a missing original disclosure or technical writeup? Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request that adds one row to `writeups.csv`. The README is generated from that file.
+Found a missing technical writeup from the researcher or team that discovered the bug? Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request that adds one row to `writeups.csv`. The README is generated from that file.
 
 ## Writeups
 
@@ -18,11 +18,6 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Oct 23 - $???]** [AuthMask: We Made Microsoft Authenticator Hand Over Tokens to an App with Zero Permissions](https://enclave.ai/blog/authmask-we-made-microsoft-authenticator-hand-over-tokens) by [Ofek Levin](https://enclave.ai/research)
 - **[Oct 23 - $???]** [Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication](https://specterops.io/blog/2026/10/23/ldap-signing-bypass-ntlm-relay/) by [Raj Patel](https://specterops.io/blog/)
 - **[Oct 13 - $0]** [Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)](https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/) by [Johann Rehberger](https://x.com/wunderwuzzi)
-- **[Oct 09 - $???]** [Technical Advisory: Microsoft Windows – Windows MIDI Services USBMIDI2.sys (CVE-2026-69508)](https://www.nccgroup.com/research/technical-advisory-microsoft-windows-windows-midi-services-usbmidi2sys-cve-2026-69508/) by [Alex Plaskett](https://www.nccgroup.com/research/)
-- **[Oct 09 - $???]** [Technical Advisory: Microsoft Windows – USBMIDI2.sys MIDI 1.0 wMaxPacketSize Pool Overflow (CVE-2026-69720)](https://www.nccgroup.com/research/technical-advisory-microsoft-windows-usbmidi2sys-midi-10-wmaxpacketsize-pool-overflow/) by [Alex Plaskett](https://www.nccgroup.com/research/)
-- **[Oct 08 - $???]** [Technical Advisory: Microsoft Windows – MIDI Service Module Escalation of Privileges (CVE-2026-62688)](https://www.nccgroup.com/research/technical-advisory-microsoft-windows-midi-service-module-escalation-of-privileges-cve-2026-62688/) by [Alex Plaskett](https://www.nccgroup.com/research/)
-- **[Oct 08 - $???]** [Technical Advisory: Microsoft Windows – uaspstor.sys Device-Controlled Kernel Pool OOB Write via REPORT LUNS (CVE-2026-68839)](https://www.nccgroup.com/research/technical-advisory-microsoft-windows-uaspstorsys-device-controlled-kernel-pool-oob-write-via-report-luns-cve-2026-68839/) by [Alex Plaskett](https://www.nccgroup.com/research/)
-- **[Oct 07 - $???]** [AI and the Rise of Patch-Gap Abuse](https://microsoftedge.github.io/edgevr/posts/AI-And-Rise-Patch-Gap-Abuse/) by [Gareth Evans](https://twitter.com/kryc_uk)
 - **[Oct 02 - $200,000]** [Azure’s Weakest Link - Five Full Cross-Tenant Compromises](https://www.binarysecurity.no/posts/2026/10/one-root-case) by [Haakon Wik Gulbrandsrud](https://www.binarysecurity.no/)
 - **[Sep 30 - $???]** [From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)](https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/) by [Johann Rehberger](https://x.com/wunderwuzzi)
 - **[Sep 25 - $5,000]** [How I Could’ve Accessed 17 Trillion Microsoft Records](https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records) by [Faav](https://x.com/efaav)
@@ -30,7 +25,6 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Sep 21 - $???]** [Windows Exploitation Techniques: Dangling COM Object Registrations](https://projectzero.google/2026/09/windows-dangling-com.html) by [James Forshaw](https://projectzero.google/)
 - **[Sep 17 - $???]** [Bypassing VS Code Workspace Trust with a Single Link](https://remedio.io/research/vulnerability-disclosures/bypassing-vs-code-workspace-trust-with-a-single-link/) by [Omri Dar](https://remedio.io/research/)
 - **[Sep 15 - $???]** [Teams ConnectCall Audio Persistence - Security Disclosure](https://github.com/Tryptophan/teams-meeting-audio-vulnerability) by [Jacob Greenway](https://github.com/Tryptophan)
-- **[Sep 13 - $???]** [CVE-2026-69379: TOCTOU in ReFsDedupSvc Enables Arbitrary File Overwrite as SYSTEM](https://blog.airoverflow.com/advisories/cve-2026-69379) by [AirOverflow](https://blog.airoverflow.com/)
 - **[Sep 03 - $???]** [Read-Only Is a Lie: An Entra ID Privilege Escalation](https://cymulate.com/blog/entra-id-global-reader-privilege-escalation/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
 - **[Aug 24 - $2,500]** [leaking Microsoft employee secrets through diagnostic data](https://careful.net/blog/powerlift/) by [careful and Doc](https://careful.net/)
 - **[Aug 19 - $5,000]** [$5,000 Bounty From Microsoft Teams Community Invitation Bypass (CVE-2025-49731)](https://www.kacateknologi.com/en/microsoft-teams-community-invitation-bypass-cve-2025-49731) by [Muhammad Alqi Fahrezi](https://www.kacateknologi.com/)
@@ -45,9 +39,6 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Jul 22 - $???]** [Dark Elevator (CVE-2026-50343)](https://calif.io/research/dark-elevator) by [Carlos Roque](https://calif.io/research)
 - **[Jul 14 - $8,000]** [When Validate Hwnd Isn’t a Gate: Root-Causing CVE-2026-54107](https://medium.com/@pravin1214choudhary/when-validate-hwnd-isnt-a-gate-root-causing-cve-2026-54107-ce4eeacb530a) by [Pravin Choudhary](https://medium.com/@pravin1214choudhary)
 - **[Jul 13 - $???]** [CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass](https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed/) by [Stephen Fewer](https://www.rapid7.com/blog/)
-- **[Jul 10 - $???]** [CVE-2026-47291: Remote Code Execution in the Windows HTTP.sys](https://www.thezdi.com/blog/2026/7/9/cve-2026-47291-remote-code-execution-in-the-windows-httpsys) by [TrendAI Research Team](https://www.thezdi.com/blog)
-- **[Jul 04 - $7,500]** [I Bypassed Microsoft’s Enterprise License Check for $7,500](https://blog.ashketchumsecurity.com/post.php?slug=i-bypassed-microsoft-s-enterprise-license-check-for-7-500-2) by [Ashish Dhone](https://blog.ashketchumsecurity.com/)
-- **[Jul 04 - $3,000]** [I Found a Stored XSS in Microsoft Dynamics 365 for $3,000](https://blog.ashketchumsecurity.com/post.php?slug=i-found-a-stored-xss-in-microsoft-dynamics-365-for-3-000) by [Ashish Dhone](https://blog.ashketchumsecurity.com/)
 - **[Jul 01 - $???]** [Extending an EPM Poisoning Technique in Windows](https://www.safebreach.com/blog/an-update-on-you-snooze-you-lose-winning-lpes-by-racing-services-for-rpc-endpoints/) by [Ron Ben Yizhak](https://www.safebreach.com/blog/)
 - **[Jun 30 - $???]** [Azure Monitor Agent Metrics Extension Vulnerability: From Engagement to CVE](https://www.kroll.com/en/publications/cyber/azure-monitor-agent-metrics-extension-vulnerability) by [Cristhian Parrot](https://www.kroll.com/en/publications)
 - **[Jun 16 - $???]** [CVE-2026-20824: UI Redirection - A New Attack Vector Using a 20-Year-Old File](https://www.linkedin.com/pulse/cve-2026-20824-ui-redirection-new-attack-vector-using-hedegaard-iwiue) by [Allan Hedegaard](https://www.linkedin.com/in/allanhedegaard/)
@@ -57,27 +48,22 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[May 28 - $???]** [MapRoot: A Tale of Two Zero-Days, Two Patches, Two Bypasses Leading to Cross-Tenant RCE on Microsoft Planetary Computer](https://enclave.ai/blog/maproot-two-cross-tenant-rce-on-microsoft-planetary-computer/) by [Yanir Tsarimi](https://enclave.ai/research)
 - **[May 23 - $0]** [VSCode Remote SSH — Setup Script Injection → RCE on Servers](https://github.com/Hijack-Everything/vscode-remote-ssh-rce) by [Suman Kumar Chakraborty](https://github.com/Hijack-Everything)
 - **[May 21 - $???]** [Envade: A Hidden env Becomes a One-Click Remote Code Execution in VS Code (CVE-2026-41613)](https://pages.oasis.security/rs/106-PZV-596/images/envade-technical-report.pdf) by [Elad Luz](https://www.oasis.security/research)
-- **[May 14 - $???]** [Microsoft Foundry Toolkit for VS Code: Command Injection via Python Interpreter Path Leading to Arbitrary Code Execution](https://www.tenable.com/security/research/tra-2026-40) by [Andrew Orr](https://www.tenable.com/security/research)
 - **[May 13 - $???]** [AKS RunCommand Vulnerability Enables Cross-Cluster Privilege Escalation](https://cymulate.com/blog/aks-runcommand-token-theft-cross-cluster-lateral-movement/) by [Ben Zamir](https://cymulate.com/authors/ben-zamir/)
 - **[May 12 - $0]** [Microsoft Silently Patched a CVSS 9.9 Privilege Escalation in Azure Backup for AKS](https://olearysec.com/research/azure-backup-aks-silent-patch/) by [Justin O'Leary](https://olearysec.com/research/)
 - **[May 06 - $140,000]** [Agentic Vulnerability Reasoning on Windows COM Binaries](https://arxiv.org/abs/2605.05000) by [Hwiwon Lee, Jongseong Kim, and Lingming Zhang](https://arxiv.org/abs/2605.05000)
 - **[May 04 - $???]** [Copirate 365 at DEF CON: Plundering in the Depths of Microsoft Copilot (CVE-2026-24299)](https://embracethered.com/blog/posts/2026/defcon-talk-copirate-365/) by [Johann Rehberger](https://x.com/wunderwuzzi)
 - **[Apr 30 - $???]** [Bypassing Windows Authentication Reflection Mitigations for SYSTEM Shells - Part 2](https://www.synacktiv.com/en/publications/bypassing-windows-authentication-reflection-mitigations-for-system-shells-part) by [Guillaume André](https://www.synacktiv.com/)
 - **[Apr 27 - $???]** [Bypassing Windows Authentication Reflection Mitigations for SYSTEM Shells - Part 1](https://www.synacktiv.com/en/publications/bypassing-windows-authentication-reflection-mitigations-for-system-shells-part-1) by [Guillaume André](https://www.synacktiv.com/)
-- **[Apr 21 - $???]** [Microsoft GitHub Repository Windows-driver-samples Workflow Remote Code Execution](https://www.tenable.com/security/research/tra-2026-30) by [Rémy Marot](https://www.tenable.com/security/research)
 - **[Apr 20 - $???]** [How We Could Watch Your Azure SRE Agent in Real Time](https://enclave.ai/blog/anyone-could-watch-your-azure-ai-agents-conversations-in-real-time) by [Yanir Tsarimi](https://enclave.ai/research)
 - **[Apr 15 - $???]** [ShareLeak: Taking the Wheel of Microsoft’s Copilot Studio (CVE-2026-21520)](https://www.capsulesecurity.io/blog-post/shareleak-taking-the-wheel-of-microsofts-copilot-studio-cve-2026-21520) by [Bar Kaduri](https://www.capsulesecurity.io/)
 - **[Apr 15 - $???]** [CVE-2026-32196: One-Click RCE via Windows Admin Center Control Flow Hijacking](https://cymulate.com/blog/cve-2026-32196-one-click-rce-windows-admin-center/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
 - **[Apr 08 - $???]** [Local File Inclusion to $$$$ Bounty on Microsoft](https://d3sca.medium.com/local-file-inclusion-to-bounty-on-microsoft-650816ff4881) by [Mustafa Mohamed](https://d3sca.medium.com/)
 - **[Apr 06 - $???]** [CVE-2026-26117: Hijacking Azure Arc on Windows for Local Privilege Escalation & Cloud Identity Takeover](https://cymulate.com/blog/cve-2026-26117-azure-arc-windows-lpe-cloud-identity-takeover/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
 - **[Mar 24 - $???]** [Azure APIM Signup Bypass: 97.9% of Developer Portals Still Exploitable Anonymously and from the Internet](https://www.praetorian.com/blog/azure-apim-signup-bypass/) by [Bernard Yip and Elgin Lee](https://www.praetorian.com/blog/)
-- **[Mar 23 - $???]** [What You Need to Know: Windows Admin Center Remote Privilege Escalation (CVE-2026-26119)](https://www.semperis.com/blog/what-you-need-to-know-windows-admin-center-remote-privilege-escalation-cve-2026-26119/) by [Andrea Pierini](https://www.semperis.com/blog/)
 - **[Mar 05 - $???]** [AST-Filtered eval() Is Not a Sandbox: Remote Code Execution in Microsoft Semantic Kernel and the AI Infrastructure Pattern Behind It](https://daridor.blog/2026/03/05/ast-filtered-eval-is-not-a-sandbox-remote-code-execution-in-microsoft-semantic-kernel-and-the-ai-infrastructure-pattern-behind-it/) by [Daridor](https://daridor.blog/)
-- **[Mar 04 - $???]** [Microsoft Azure Data Explorer Cross-Tenant Data Leak with Custom Dashboard](https://www.tenable.com/security/research/tra-2026-14) by [Moshe Bernstein](https://www.tenable.com/security/research)
 - **[Mar 04 - $5,000]** [Azure DevOps Privilege Escalation via OIDC Abuse](https://dazesecurity.io/blog/azureDevOpsPrivEsc) by [Cody Burkard](https://dazesecurity.io/)
 - **[Feb 27 - $???]** [Total Recall - Retracing Your Steps Back to NT AUTHORITY\\SYSTEM](https://www.mdsec.co.uk/2026/02/total-recall-retracing-your-steps-back-to-nt-authoritysystem/) by [Filip Dragovic](https://www.mdsec.co.uk/)
 - **[Feb 26 - $???]** [Ghosts in the Cloud: Hijacking Orphaned Azure Blob Storage](https://labs.eye.security/ghosts-in-the-cloud-hijacking-orphaned-azure-blob-storage/) by [Jotte Sonneveld and Jacob Virsilas](https://labs.eye.security/)
-- **[Feb 19 - $???]** [CVE-2026-20841: Arbitrary Code Execution in the Windows Notepad](https://www.thezdi.com/blog/2026/2/19/cve-2026-20841-arbitrary-code-execution-in-the-windows-notepad) by [TrendAI Research Team](https://www.thezdi.com/blog)
 - **[Feb 19 - $???]** [Discovery & Analysis of CVE-2025-29969](https://www.safebreach.com/blog/safebreach_labs_discovers_cve-2025-29969/) by [SafeBreach Labs](https://www.safebreach.com/blog/)
 - **[Feb 12 - $???]** [Bypassing Administrator Protection by Abusing UI Access](https://projectzero.google/2026/02/windows-administrator-protection.html) by [James Forshaw](https://projectzero.google/)
 - **[Feb 08 - $20,000]** [Agentic 0day Research: Edge VBS Bypass (CVE-2026-21223)](https://blindcyber.com/2026/02/08/Agentic-0day-Research/) by [Alex Bernier](https://blindcyber.com/)
@@ -95,7 +81,7 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Dec 15 - $5,000]** [Uncovering CVE-2025-64669 in Windows Admin Center](https://cymulate.com/blog/cve-2025-64669-windows-admin-center/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
 - **[Nov 20 - $???]** [When Updates Backfire: RCE in Windows Update Health Tools](https://labs.eye.security/rce-windows-update-health-tools/) by [Martin Warmer](https://labs.eye.security/)
 - **[Nov 17 - $???]** [Deleting the BCD through COM as low privileged user](https://warpnet.nl/blog/deleting-the-bcd-through-com-as-low-privileged-user/) by [Sarah Dezijn](https://warpnet.nl/)
-- **[Nov 07 - $10,000]** [How I Found the Worst ASP.NET Vulnerability — A $10K Bug (CVE-2025-55315)](https://www.praetorian.com/blog/how-i-found-the-worst-asp-net-vulnerability-a-10k-bug-cve-2025-55315/) by [Justin Copeland](https://www.praetorian.com/)
+- **[Nov 07 - $10,000]** [How I Found the Worst ASP.NET Vulnerability — A $10K Bug (CVE-2025-55315)](https://www.praetorian.com/blog/how-i-found-the-worst-asp-net-vulnerability-a-10k-bug-cve-2025-55315/) by [Siddhant Kalgutkar](https://www.praetorian.com/author/siddhant-kalgutkar/)
 - **[Nov 04 - $???]** [Exploiting Microsoft Teams: Impersonation and Spoofing Vulnerabilities Exposed](https://research.checkpoint.com/2025/microsoft-teams-impersonation-and-spoofing-vulnerabilities-exposed/) by [Andrey Charikov and Oded Vanunu](https://research.checkpoint.com/)
 - **[Nov 02 - $???]** [Drawn to Danger: Windows Graphics Vulnerabilities Lead to Remote Code Execution and Memory Exposure](https://research.checkpoint.com/2025/drawn-to-danger-windows-graphics-vulnerabilities-lead-to-remote-code-execution-and-memory-exposure/) by [Check Point Research](https://research.checkpoint.com/)
 - **[Oct 29 - $???]** [DOM-based XSS on Microsoft.com](https://medium.com/@niraj1mahajan/dom-based-xss-on-microsoft-com-f704227230a7) by [Niraj Mahajan](https://medium.com/@niraj1mahajan)
@@ -106,25 +92,18 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Oct 15 - $0]** [Dismantling a Critical Supply Chain Risk in VSCode Extension Marketplaces](https://www.wiz.io/blog/supply-chain-risk-in-vscode-extension-marketplaces) by [Wiz Research](https://www.wiz.io/research)
 - **[Oct 13 - $0]** [Microsoft Events Leak, Part II: Leaking Event Registration Database Again](https://blog.faav.net/microsoft-events-leak-part-ii) by [Faav](https://x.com/efaav)
 - **[Oct 08 - $0]** [Microsoft Events Leak, Part I: Leaking Event Registration and Waitlist Databases](https://blog.faav.net/microsoft-events-leak-part-i) by [Faav](https://x.com/efaav)
-- **[Sep 26 - $???]** [Microsoft Learn MCP Server Server-Side Request Forgery](https://www.tenable.com/security/research/tra-2025-36) by [Rémy Marot](https://www.tenable.com/security/research)
 - **[Sep 17 - $???]** [One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/) by [Dirk-jan Mollema](https://x.com/_dirkjan)
 - **[Sep 16 - $20,000]** [Cross-Tenant Access Exploit in Microsoft Entra ID: Breaking Governance with a simple trick](https://medium.com/@bashir69emceeaka5/cross-tenant-access-exploit-in-microsoft-entra-id-breaking-governance-with-a-simple-trick-a06d88fe309e) by [Bashir Mohamed (BlackPanther87)](https://x.com/Panther82Black)
-- **[Sep 09 - $???]** [(CVE-2025-54098) Windows Hyper-V vhdmp.sys Arbitrary File Write Leading to Elevation of Privilege](https://www.starlabs.sg/advisories/25/25-54098/) by [Chen Le Qi](https://www.starlabs.sg/advisories/)
 - **[Aug 20 - $40,000]** [Azure's Weakest Link - Full Cross-Tenant Compromise](https://www.binarysecurity.no/posts/2025/08/azures-weakest-link-part2) by [Haakon Holm Gulbrandsrud](https://www.binarysecurity.no/)
 - **[Aug 12 - $???]** [Zero Click, One NTLM: Microsoft Security Patch Bypass (CVE-2025-50154)](https://cymulate.com/blog/zero-click-one-ntlm-microsoft-security-patch-bypass-cve-2025-50154/) by [Ruben Enkaoua](https://cymulate.com/authors/ruben-en/)
-- **[Aug 12 - $???]** [(CVE-2025-50170) Windows Cloud Files Mini Filter Driver Elevation of Privilege](https://www.starlabs.sg/advisories/25/25-50170/) by [Chen Le Qi](https://www.starlabs.sg/advisories/)
 - **[Aug 12 - $???]** [GitHub Copilot: Remote Code Execution via Prompt Injection (CVE-2025-53773)](https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/) by [Johann Rehberger](https://x.com/wunderwuzzi)
 - **[Aug 07 - $???]** [Consent & Compromise: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications](https://labs.eye.security/consent-and-compromise/) by [Vaisha Bernard](https://labs.eye.security/)
 - **[Aug 05 - $7,500]** [Microsoft Partner Leak: Leaking Microsoft Employee PII and 700M+ Partner Records](https://blog.faav.net/microsoft-partner-leak) by [Faav](https://x.com/efaav)
 - **[Jul 25 - $0]** [How We Rooted Copilot](https://labs.eye.security/how-we-rooted-copilot/) by [Eye Security](https://labs.eye.security/)
 - **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be) by [Gouri Sankar A](https://x.com/g0w6y)
-- **[Jul 21 - $???]** [Windows Authenticated Remote Command Execution (CVE-2025-33073)](https://www.synacktiv.com/advisories/windows-authenticated-remote-command-execution.html) by [Wilfried Bécard](https://www.synacktiv.com/)
-- **[Jul 19 - $???]** [SharePoint Under Siege: ToolShell Exploit (CVE-2025-49706 & CVE-2025-49704)](https://labs.eye.security/sharepoint-under-siege/) by [Eye Security](https://labs.eye.security/)
 - **[Jul 19 - $???]** [How I Found an XSS Vulnerability in a Microsoft subdomain](https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9) by [Arjun Shetty](https://www.linkedin.com/in/arjun-shetty-255049229/)
 - **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.net/break-into-any-microsoft-building) by [Faav](https://x.com/efaav)
 - **[Jul 16 - $???]** [Hacking Minecraft Realms: Spoofing Realms Owner](https://blog.faav.net/hacking-minecraft-realms) by [Faav](https://x.com/efaav)
-- **[Jul 08 - $???]** [(CVE-2025-47985) Windows Event Tracing Insufficient Validation Leading to Elevation of Privilege](https://www.starlabs.sg/advisories/25/25-47985/) by [Chen Le Qi](https://www.starlabs.sg/advisories/)
-- **[Jul 08 - $???]** [(CVE-2025-49660) Windows Event Tracing Reference Count Overflow Leading to Use-After-Free and Elevation of Privilege](https://www.starlabs.sg/advisories/25/25-49660/) by [Chen Le Qi](https://www.starlabs.sg/advisories/)
 - **[Jul 02 - $0]** [Azure Machine Learning Escalation: When Pipelines Go Off the Rails](https://orca.security/resources/research/azure-machine-learning-privilege-escalation/) by [Ofir Yakobi](https://orca.security/)
 - **[Jul 02 - $???]** [Double Agent: Exploiting Pass-through Authentication Credential Validation in Azure AD](https://cymulate.com/blog/exploiting-pta-credential-validation-in-azure-ad/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
 - **[Jun 29 - $???]** [Triple Trouble: Bypassing Sanitization to Steal Microsoft Tokens](https://melotover.medium.com/triple-trouble-bypassing-sanitization-to-steal-microsoft-tokens-d89a68be7ab2) by [Asem Eleraky](https://x.com/Melotover)
@@ -134,16 +113,11 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[May 30 - $10,000]** [Finding SSRFs in Azure DevOps - Part 2](https://www.binarysecurity.no/posts/2025/05/finding-ssrfs-in-devops-part2) by [Sofia Lindqvist](https://www.binarysecurity.no/)
 - **[May 21 - $???]** [BadSuccessor: Abusing dMSA to Escalate Privileges in Active Directory](https://www.akamai.com/blog/security-research/abusing-dmsa-for-privilege-escalation-in-active-directory) by [Yuval Gordon](https://www.akamai.com/blog/security-research)
 - **[May 21 - $???]** [Account takeover vulnerability in Azure’s API Management Developer Portal](https://outpost24.com/blog/account-takeover-vulnerability-in-azures-api-management-developer-portal/) by [Thomas Stacey](https://x.com/t0xodile)
-- **[May 15 - $???]** [Unveiling the Secrets: SSRF Adventures in Microsoft’s AI Playground](https://poneglyph.cloud/unveiling-the-secrets-ssrf-adventures-in-microsofts-ai-playground/) by [elhabtiesoufiane@gmail.com](https://poneglyph.cloud/author/elhabtiesoufianegmail-com/)
 - **[Apr 20 - $???]** [Escalating Impact: Full Account Takeover in Microsoft via XSS in Login Flow](https://melotover.medium.com/escalating-impact-full-account-takeover-in-microsoft-via-xss-in-login-flow-f160fa79b008) by [Asem Eleraky](https://x.com/Melotover)
-- **[Apr 16 - $???]** [CVE-2025-24054, NTLM Exploit in the Wild](https://research.checkpoint.com/2025/cve-2025-24054-ntlm-exploit-in-the-wild/) by [Check Point Research](https://research.checkpoint.com/)
 - **[Mar 10 - $???]** [Azure’s Weakest Link? How API Connections Spill Secrets](https://www.binarysecurity.no/posts/2025/03/api-connections) by [Haakon Holm Gulbrandsrud](https://www.binarysecurity.no/)
-- **[Mar 04 - $???]** [CVE-2024-43639: Remote Code Execution in Microsoft Windows KDC Proxy](https://www.thezdi.com/blog/2025/3/3/cve-2024-43639-remote-code-execution-in-microsoft-windows-kdc-proxy) by [TrendAI Research Team](https://www.thezdi.com/blog)
 - **[Jan 31 - $???]** [CRLF injection via TryAddWithoutValidation in .NET](https://www.binarysecurity.no/posts/2025/01/tryaddwithoutvalidation) by [Sofia Lindqvist](https://www.binarysecurity.no/)
 - **[Jan 17 - $15,000]** [Finding SSRFs in Azure DevOps](https://binarysecurity.no/posts/2025/01/finding-ssrfs-in-devops) by [Torjus Bryne Retterstøl](https://www.binarysecurity.no/)
-- **[Jan 16 - $???]** [Microsoft Configuration Manager (ConfigMgr) 2403 Unauthenticated SQL Injections (CVE-2024-43468)](https://www.synacktiv.com/advisories/microsoft-configuration-manager-configmgr-2403-unauthenticated-sql-injections) by [Mehdi Elyassa](https://www.synacktiv.com/)
 - **[Jan 02 - $???]** [Microsoft 365 Copilot Generated Images Accessible Without Authentication -- Fixed!](https://embracethered.com/blog/posts/2025/m365-copilot-image-generation-without-authentication/) by [Johann Rehberger](https://x.com/wunderwuzzi)
-- **[Jan 01 - $???]** [LDAPNightmare: SafeBreach Publishes First PoC Exploit (CVE-2024-49113)](https://www.safebreach.com/blog/ldapnightmare-safebreach-labs-publishes-first-proof-of-concept-exploit-for-CVE-2024-49113/) by [Or Yair and Shahak Morag](https://www.safebreach.com/blog/)
 
 ### 2024
 
@@ -158,8 +132,8 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Jun 14 - $???]** [CVE-2024-20693: Windows cached code signature manipulation](https://sector7.computest.nl/post/2024-06-cve-2024-20693-windows-cached-code-signature-manipulation/) by [Sector7](https://x.com/sector7_nl)
 - **[Jun 03 - $???]** [These Services Shall Not Pass: Abusing Service Tags to Bypass Azure Firewall Rules (Customer Action Required)](https://www.tenable.com/blog/these-services-shall-not-pass-abusing-service-tags-to-bypass-azure-firewall-rules-customer) by [Liv Matan](https://x.com/terminatorLM)
 - **[May 28 - $???]** [Multiple vulnerabilities in Eclipse ThreadX](https://hnsecurity.it/blog/multiple-vulnerabilities-in-eclipse-threadx/) by [Marco Ivaldi](https://x.com/0xdea)
-- **[May 11 - $???]** [My Hunt: Discovering Microsoft Bugs](https://c0d3x27.medium.com/my-hunt-discovering-microsoft-bugs-f6a9c790bec0) by [c0d3x27](https://x.com/c0d3x27)
 - **[May 07 - $???]** [Lethal Injection: How We Hacked Microsoft's Healthcare Chat Bot](https://www.breachproof.net/blog/lethal-injection-how-we-hacked-microsoft-ai-chat-bot) by [Yanir Tsarimi](https://x.com/Yanir_)
+- **[Mar 02 - $???]** [Unveiling the Secrets: SSRF Adventures in Microsoft’s AI Playground](https://poneglyph.cloud/research/microsoft-ai-ssrf/) by [Soufiane Habti](https://poneglyph.cloud/)
 - **[Feb 09 - $0]** [JSON CSRF in Microsoft Bing Maps Collections](https://infosecwriteups.com/json-csrf-in-microsoft-bing-maps-collections-74afc2b197d5) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Jan 31 - $???]** [Azure Devops Zero-Click CI/CD Vulnerability](https://www.legitsecurity.com/blog/azure-devops-zero-click-ci/cd-vulnerability) by [Nadav Noy](https://x.com/nadavnoy)
 - **[Jan 15 - $???]** [Unrestricted File Upload Lead to Stored XSS at Microsoft main domain](https://medium.com/@cavdarbashas/unrestricted-file-upload-lead-to-stored-xss-at-microsoft-main-domain-baa9cadac6bd) by [Sokol Çavdarbasha](https://x.com/sokolicav)
@@ -193,18 +167,15 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Dec 23 - $???]** [Microsoft bug reports lead to ranking on Microsoft MSRC Quarterly Leaderboard (Q3 2022)](https://infosecwriteups.com/microsoft-bug-reports-lead-to-ranking-on-microsoft-msrc-quarterly-leaderboard-q3-2022-c6c9f70e2ccd) by [Supakiad S. (m3ez)](https://x.com/Supakiad_Mee)
 - **[Oct 28 - $???]** [Blind SSRF in Skype (Microsoft)](https://infosecwriteups.com/blind-ssrf-in-skype-microsoft-6639f4961052) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Oct 12 - $???]** [$6000 with Microsoft Hall of Fame | Microsoft Firewall Bypass | CRLF to XSS | Microsoft Bug Bounty](https://infosecwriteups.com/6000-with-microsoft-hall-of-fame-microsoft-firewall-bypass-crlf-to-xss-microsoft-bug-bounty-8f6615c47922) by [Neh Patel](https://x.com/thecyberneh)
-- **[Sep 08 - $???]** [New technique 403 bypass lyncdiscover.microsoft.com](https://infosecwriteups.com/403-bypass-lyncdiscover-microsoft-com-db2778458c33) by [Abbas.heybati](https://x.com/abbas_heybati)
 - **[Aug 18 - $30,000]** [Let's Dance in the Cache - Destabilizing Hash Table on Microsoft IIS!](https://blog.orange.tw/posts/2022-08-lets-dance-in-the-cache-destabilizing-hash-table-on-microsoft-iis/) by [Orange Tsai](https://x.com/orange_8361)
 - **[Jul 28 - $???]** [Reading Message from Microsoft’s Private Yammer Group](https://mearegtu.medium.com/reading-message-from-microsofts-private-yammer-group-6be844639bca) by [Meareg](https://mearegtu.medium.com/)
 - **[Jul 13 - $6,000]** [Microsoft Teams — Cross Site Scripting (XSS) Bypass CSP](https://medium.com/@numanturle/microsoft-teams-stored-xss-bypass-csp-8b4a7f5fccbf) by [numanturle](https://x.com/numanturle)
 - **[Jun 01 - $20,000]** [Microsoft Dynamics Container Sandbox RCE via Unauthenticated Docker Remote API 20,000$ Bounty](https://hencohen10.medium.com/microsoft-dynamics-container-sandbox-rce-via-unauthenticated-docker-remote-api-20-000-bounty-7f726340a93b) by [Chen Cohen](https://x.com/chencococococo)
-- **[Apr 21 - $???]** [Microsoft Cloud Security Research – Public Disclosure – Gaining Unlimited access to graph AuditLogs endpoint using complex filters with non-privileged user account](https://securecloud.blog/2022/04/21/microsoft-cloud-security-research-public-disclosure-gaining-unlimited-access-to-graph-auditlogs-endpoint-using-complex-filters-with-non-privileged-user-account/) by [Joosua Santasalo](https://x.com/santasalojoosua)
+- **[Apr 21 - $???]** [Microsoft Cloud Security Research – Public Disclosure – Gaining Unlimited access to graph AuditLogs endpoint using complex filters with non-privileged user account](https://web.archive.org/web/20241113070957/https://securecloud.blog/2022/04/21/microsoft-cloud-security-research-public-disclosure-gaining-unlimited-access-to-graph-auditlogs-endpoint-using-complex-filters-with-non-privileged-user-account/) by [Joosua Santasalo](https://x.com/santasalojoosua)
 - **[Mar 18 - $???]** [Insecure Direct Object Reference Exposes all users of Microsoft Azure Independent Software Vendors](https://mearegtu.medium.com/insecure-direct-object-reference-exposes-all-users-of-microsoft-azure-independent-software-vendors-bed3b45e509) by [Meareg](https://mearegtu.medium.com/)
-- **[Mar 12 - $0]** [I have Found Microsoft Subdomain Website database list, database username, password](https://medium.com/@botami143/i-have-found-microsoft-subdomain-website-database-list-database-username-password-1dab07d0c8ea) by [Bot Ami](https://x.com/Botami143)
 - **[Mar 09 - $???]** [Escalating from Logic App Contributor to Root Owner in Azure](https://www.netspi.com/blog/technical-blog/cloud-penetration-testing/azure-logic-app-contributor-escalation-to-root-owner/) by [Josh Magri](https://www.netspi.com/authors/josh-magri/)
 - **[Mar 07 - $???]** [AutoWarp: Critical Cross-Account Vulnerability in Microsoft Azure Automation Service](https://orca.security/resources/blog/autowarp-microsoft-azure-automation-service-vulnerability/) by [Yanir Tsarimi](https://x.com/Yanir_)
 - **[Jan 25 - $???]** [First Valid BUG Finding At Microsoft And I Got the Acknowledgments Page Microsoft](https://aidilarf.medium.com/first-valid-bug-finding-at-microsoft-and-i-got-the-acknowledgments-page-microsoft-a2c185c53074) by [Aidil Arief](https://aidilarf.medium.com/)
-- **[Jan 16 - $0]** [I FOUND information disclosure Vulnerability at Microsoft Subdomain](https://medium.com/@botami143/i-found-idor-vulnerability-at-microsoft-subdomain-b89b8777bf8d) by [Bot Ami](https://x.com/Botami143)
 
 ### 2021
 
@@ -217,7 +188,7 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Jun 25 - $20,000]** [How We Are Able To Hack Any Company By Sending Message – $20,000 Bounty \[CVE-2021–34506\]](https://blog.cyberxplore.com/how-we-are-able-to-hack-any-company-by-sending-message-20000-bounty-cve-2021-34506/) by [Th3Pr0xyB0y](https://x.com/th3pr0xyb0y)
 - **[Jun 10 - $???]** [Active Directory forest trusts part 2 - Trust transitivity and finding a trust bypass](https://dirkjanm.io/active-directory-forest-trusts-part-two-trust-transitivity/) by [Dirk-jan Mollema](https://x.com/_dirkjan)
 - **[Apr 25 - $???]** [Reflected XSS on Microsoft](https://n45ht.or.id/blog/reflected-xss-on-microsoft/) by [Choirur Rizal](https://n45ht.or.id/blog/author/choirurrizal/)
-- **[Apr 02 - $50,000]** [How I Might Have Hacked Any Microsoft Account](https://thezerohack.com/how-i-might-have-hacked-any-microsoft-account) by [Laxman Muthiyah](https://x.com/laxmanmuthiyah)
+- **[Mar 02 - $50,000]** [How I Might Have Hacked Any Microsoft Account](https://thezerohack.com/how-i-might-have-hacked-any-microsoft-account) by [Laxman Muthiyah](https://x.com/laxmanmuthiyah)
 - **[Feb 15 - $30,000]** [I Own your Cloud Shell: Taking over “Azure Cloud Shell” Kubernetes Cluster Through Unsecured Kubelet API 30,000$ Bounty](https://hencohen10.medium.com/i-own-your-cloud-shell-taking-over-azure-cloud-shell-kubernetes-cluster-through-unsecured-558621519cf9) by [Chen Cohen](https://x.com/chencococococo)
 - **[Jan 22 - $10,000]** [$10,000 for automatic email confirmation bug in Microsoft’s Edge browser](https://0xkaran.medium.com/10-000-for-automatic-email-confirmation-bug-in-microsofts-edge-browser-22f15ceccb4a) by [Karan Chaudhary](https://x.com/0xkaran)
 - **[Jan 10 - $2,000]** [Unauthorized Access to OData Entities + $2K Bounty From Microsoft](https://infosecwriteups.com/unauthorized-access-to-odata-entities-2k-bounty-from-microsoft-e070b2ef88c2) by [Borna Nematzadeh](https://x.com/LogicalHunter)
@@ -242,14 +213,13 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[May 09 - $???]** [Stored XSS on Techprofile Microsoft](https://medium.com/@kang_ali/stored-xss-on-techprofile-microsoft-d21757588cc1) by [Mohammad Ali Syarief](https://medium.com/@kang_ali)
 - **[Apr 19 - $???]** [From http:// domain to res:// domain xss by using IE Adobe’s PDF ActiveX plugin](https://80vul.medium.com/from-http-domain-to-res-domain-xss-by-using-ie-adobes-pdf-activex-plugin-9f2a72a87aff) by [heige](https://x.com/80vul)
 - **[Apr 14 - $1,000]** [$1,000 USD, XSS STORED IN OUTLOOK.COM (IOS BROWSERS)](https://omespino.com/write-up-1000-usd-in-5-minutes-xss-stored-in-outlook-com-ios-browsers/) by [Omar Espino](https://x.com/omespino)
-- **[Feb 06 - $???]** [Remote Code Execution via Path Traversal in the Device Metadata Authoring Wizard](https://posts.specterops.io/remote-code-execution-via-path-traversal-in-the-device-metadata-authoring-wizard-a0d5839fc54f) by [Lee Chagolla-Christensen](https://x.com/tifkin_)
+- **[Feb 06 - $???]** [Remote Code Execution via Path Traversal in the Device Metadata Authoring Wizard](https://specterops.io/blog/2019/02/06/remote-code-execution-via-path-traversal-in-the-device-metadata-authoring-wizard/) by [Lee Chagolla-Christensen](https://x.com/tifkin_)
 
 ### 2018
 
 - **[Oct 12 - $500]** [Microsoft CSRF Vulnerability](https://ad3sh.medium.com/how-i-got-500-from-microsoft-for-csrf-vulnerability-700accaf48b9) by [Adesh Kolte](https://x.com/AdeshKolte)
 - **[Jul 19 - $0]** [How I was able to delete 13k+ Microsoft Translator projects](https://haiderm.com/how-i-was-able-to-delete-13k-microsoft-translator-projects/) by [Haider Mahmood](https://haiderm.com/whoami/)
 - **[Jul 13 - $???]** [XSS in Microsoft subdomain](https://sudhanshur705.medium.com/xss-in-microsoft-subdomain-81c4e46d6631) by [Sudhanshu Rajbhar](https://twitter.com/sudhanshur705)
-- **[May 18 - $???]** [Xss in Microsoft](https://medium.com/@hacker_eth/xss-in-microsoft-7a70416aee75) by [hacker_eth](https://medium.com/@hacker_eth)
 - **[Apr 15 - $1,500]** [Bypass CSP by Abusing XSS Filter in Edge](https://infosecwriteups.com/bypass-csp-by-abusing-xss-filter-in-edge-43e9106a9754) by [Xiaoyin Liu](https://x.com/general_nfs)
 
 ### 2017

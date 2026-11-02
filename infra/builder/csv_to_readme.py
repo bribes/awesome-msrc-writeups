@@ -123,7 +123,7 @@ def generate_readme(writeups: list[dict[str, str]], output_file: str | Path) -> 
     lines = [
         "# Awesome MSRC Writeups",
         "",
-        "🐛 A curated catalog of public security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).",
+        "🐛 A curated catalog of original, finder-authored security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).",
         "",
         f"**{len(ordered)} writeups and talks. Latest publication: {latest}.**",
         "",
@@ -131,7 +131,7 @@ def generate_readme(writeups: list[dict[str, str]], output_file: str | Path) -> 
         "",
         "## Contributing",
         "",
-        "Found a missing original disclosure or technical writeup? Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request that adds one row to `writeups.csv`. The README is generated from that file.",
+        "Found a missing technical writeup from the researcher or team that discovered the bug? Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request that adds one row to `writeups.csv`. The README is generated from that file.",
         "",
         "## Writeups",
         "",
