@@ -2,7 +2,7 @@
 
 🐛 A curated catalog of original, finder-authored security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**197 writeups and talks. Latest publication: 2026-10-28.**
+**196 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
@@ -103,7 +103,6 @@ Found a missing technical writeup from the researcher or team that discovered th
 - **[Jul 25 - $7,500]** [How a Simple Endpoint Earned Me a $7500 Bounty from Microsoft](https://medium.com/@gourisankara357/how-a-simple-endpoint-earned-me-a-7500-bounty-from-microsoft-1891a35d40be) by [Gouri Sankar A](https://x.com/g0w6y)
 - **[Jul 19 - $???]** [How I Found an XSS Vulnerability in a Microsoft subdomain](https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9) by [Arjun Shetty](https://www.linkedin.com/in/arjun-shetty-255049229/)
 - **[Jul 18 - $0]** [Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In](https://blog.faav.net/break-into-any-microsoft-building) by [Faav](https://x.com/efaav)
-- **[Jul 16 - $???]** [Hacking Minecraft Realms: Spoofing Realms Owner](https://blog.faav.net/hacking-minecraft-realms) by [Faav](https://x.com/efaav)
 - **[Jul 02 - $0]** [Azure Machine Learning Escalation: When Pipelines Go Off the Rails](https://orca.security/resources/research/azure-machine-learning-privilege-escalation/) by [Ofir Yakobi](https://orca.security/)
 - **[Jul 02 - $???]** [Double Agent: Exploiting Pass-through Authentication Credential Validation in Azure AD](https://cymulate.com/blog/exploiting-pta-credential-validation-in-azure-ad/) by [Cymulate Research Lab](https://cymulate.com/authors/cymulate-research-lab/)
 - **[Jun 29 - $???]** [Triple Trouble: Bypassing Sanitization to Steal Microsoft Tokens](https://melotover.medium.com/triple-trouble-bypassing-sanitization-to-steal-microsoft-tokens-d89a68be7ab2) by [Asem Eleraky](https://x.com/Melotover)

@@ -109,7 +109,6 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2025-06-29,?,Triple Trouble: Bypassing Sanitization to Steal Microsoft Tokens,https://melotover.medium.com/triple-trouble-bypassing-sanitization-to-steal-microsoft-tokens-d89a68be7ab2,Asem Eleraky,https://x.com/Melotover,blog,false,?
 2025-07-02,0,Azure Machine Learning Escalation: When Pipelines Go Off the Rails,https://orca.security/resources/research/azure-machine-learning-privilege-escalation/,Ofir Yakobi,https://orca.security/,blog,false,?
 2025-07-02,?,Double Agent: Exploiting Pass-through Authentication Credential Validation in Azure AD,https://cymulate.com/blog/exploiting-pta-credential-validation-in-azure-ad/,Cymulate Research Lab,https://cymulate.com/authors/cymulate-research-lab/,blog,false,?
-2025-07-16,?,Hacking Minecraft Realms: Spoofing Realms Owner,https://blog.faav.net/hacking-minecraft-realms,Faav,https://x.com/efaav,blog,false,?
 2025-07-18,0,Break into any Microsoft building: Leaking PII in Microsoft Guest Check-In,https://blog.faav.net/break-into-any-microsoft-building,Faav,https://x.com/efaav,blog,false,?
 2025-07-19,?,How I Found an XSS Vulnerability in a Microsoft subdomain,https://medium.com/@anonymousshetty2003/how-i-found-an-xss-vulnerability-in-a-microsoft-subdomain-4abf0da5c3e9,Arjun Shetty,https://www.linkedin.com/in/arjun-shetty-255049229/,blog,false,?
 2025-07-25,0,How We Rooted Copilot,https://labs.eye.security/how-we-rooted-copilot/,Eye Security,https://labs.eye.security/,blog,false,?
