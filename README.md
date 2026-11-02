@@ -2,7 +2,7 @@
 
 🐛 A curated catalog of original, finder-authored security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**194 writeups and talks. Latest publication: 2026-10-28.**
+**197 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
@@ -140,12 +140,14 @@ Found a missing technical writeup from the researcher or team that discovered th
 
 ### 2023
 
+- **[Nov 10 - $0]** [Accessing Azure Kubernetes Service as Guest and Cross-Tenant](https://www.binarysecurity.no/posts/2023/11/aks-guest-access) by [Christian August Holm Hansen](https://www.binarysecurity.no/)
 - **[Oct 04 - $???]** [2023 Microsoft Office XSS](https://blog.pksecurity.io/2023/10/04/microsoft-office.html) by [adm1nkyj1](https://x.com/adm1nkyj1)
 - **[Jul 31 - $7,500]** [Knocking on the Front Door (client side desync attack on Azure CDN)](https://blog.jeti.pw/posts/knocking-on-the-front-door/) by [Jeti](https://x.com/0xJeti)
 - **[Jul 31 - $150,000]** [How I Hacked Microsoft Teams and got $150,000 in Pwn2Own](https://speakerdeck.com/masatokinugawa/how-i-hacked-microsoft-teams-and-got-150000-dollars-in-pwn2own) by [Masato Kinugawa](https://x.com/kinugawamasato)
 - **[Jul 12 - $0]** [Story of Clickjacking on Microsoft Leads To Privilege Escalation & Account Takeover Of Admin](https://cybersecuritywriteups.com/story-of-clickjacking-in-microsoft-leads-to-privilege-escalation-account-takeover-of-admin-a04453ed47fc) by [Abdul Rehman Parkar](https://x.com/abdulrehmanprkr)
 - **[Jun 27 - $???]** [How I found DOM XSS via postMessage on Bing.com - Microsoft Bug Bounty](https://namcoder.com/blog/how-i-found-dom-xss-on-bingcom-microsoft-bug-bounty-write-up/) by [Nam Le](https://x.com/namcoder_com)
 - **[Jun 14 - $???]** [Two XSS Vulnerabilities in Azure with Embedded postMessage IFrames](https://orca.security/resources/blog/examining-two-xss-vulnerabilities-in-azure-services/) by [Lidor Ben Shitrit](https://orca.security/resources/author/lidor-ben-shitrit/)
+- **[Jun 13 - $???]** [Exploiting the Azure Management API for App Services](https://www.binarysecurity.no/posts/2023/06/function-apps-rce) by [Haakon Holm Gulbrandsrud and Christian August Holm Hansen](https://www.binarysecurity.no/)
 - **[Jun 03 - $???]** [Send email from anyone to any(user outlook Microsoft)](https://infosecwriteups.com/send-email-from-anyone-to-any-user-outlook-microsoft-69fce333066d) by [Abbas.heybati](https://x.com/abbas_heybati)
 - **[May 28 - $0]** [How I Found Stored XSS + HTML Injection Vulnerability on Microsoft](https://cybersecuritywriteups.com/how-i-found-stored-xss-html-injection-vulnerability-on-microsoft-6b8682c03680) by [Abdul Rehman Parkar](https://x.com/abdulrehmanprkr)
 - **[May 04 - $???]** [Uncovering 3 Azure API Management Vulnerabilities – When Good APIs Go Bad](https://www.tenable.com/blog/uncovering-3-azure-api-management-vulnerabilities-when-good-apis-go-bad) by [Liv Matan](https://x.com/terminatorLM)
@@ -165,6 +167,7 @@ Found a missing technical writeup from the researcher or team that discovered th
 
 - **[Dec 26 - $???]** [Stored XSS vulnerability in Microsoft booking](https://mtechghost.medium.com/stored-xss-vulnerability-in-microsoft-booking-e593de3344e0) by [Mrtechghost](https://x.com/Mrtechghost)
 - **[Dec 23 - $???]** [Microsoft bug reports lead to ranking on Microsoft MSRC Quarterly Leaderboard (Q3 2022)](https://infosecwriteups.com/microsoft-bug-reports-lead-to-ranking-on-microsoft-msrc-quarterly-leaderboard-q3-2022-c6c9f70e2ccd) by [Supakiad S. (m3ez)](https://x.com/Supakiad_Mee)
+- **[Nov 07 - $0]** [Taking over Azure Devops Accounts and Microsoft Pipelines](https://www.binarysecurity.no/posts/2022/11/azure-devops-takeover) by [Christian August Holm Hansen](https://www.binarysecurity.no/)
 - **[Oct 28 - $???]** [Blind SSRF in Skype (Microsoft)](https://infosecwriteups.com/blind-ssrf-in-skype-microsoft-6639f4961052) by [Jayateertha Guruprasad](https://x.com/jayateerthag)
 - **[Oct 12 - $???]** [$6000 with Microsoft Hall of Fame | Microsoft Firewall Bypass | CRLF to XSS | Microsoft Bug Bounty](https://infosecwriteups.com/6000-with-microsoft-hall-of-fame-microsoft-firewall-bypass-crlf-to-xss-microsoft-bug-bounty-8f6615c47922) by [Neh Patel](https://x.com/thecyberneh)
 - **[Aug 18 - $30,000]** [Let's Dance in the Cache - Destabilizing Hash Table on Microsoft IIS!](https://blog.orange.tw/posts/2022-08-lets-dance-in-the-cache-destabilizing-hash-table-on-microsoft-iis/) by [Orange Tsai](https://x.com/orange_8361)
