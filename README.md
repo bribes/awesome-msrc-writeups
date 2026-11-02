@@ -2,7 +2,7 @@
 
 🐛 A curated catalog of public security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**173 writeups and talks. Latest publication: 2026-10-28.**
+**172 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
@@ -25,7 +25,6 @@ Found a missing original disclosure or technical writeup? Please read [CONTRIBUT
 - **[Aug 24 - $2,500]** [leaking Microsoft employee secrets through diagnostic data](https://careful.net/blog/powerlift/) by [careful and Doc](https://careful.net/)
 - **[Aug 19 - $5,000]** [$5,000 Bounty From Microsoft Teams Community Invitation Bypass (CVE-2025-49731)](https://www.kacateknologi.com/en/microsoft-teams-community-invitation-bypass-cve-2025-49731) by [Muhammad Alqi Fahrezi](https://www.kacateknologi.com/)
 - **[Aug 18 - $???]** [CoSnitch: When Your AI Assistant Becomes Its Own Whistleblower](https://www.varonis.com/blog/cosnitch) by [Lior Adar](https://www.varonis.com/blog)
-- **[Aug 15 - $???]** [Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations](https://d3sca.medium.com/microsoft-bounty-hunt-from-contacts-to-invoices-via-guest-user-misconfigurations-efaa8bef73f4) by [Mustafa Mohamed](https://d3sca.medium.com/)
 - **[Aug 10 - $???]** [CVE-2026-63520: Microsoft SharePoint Remote Code Execution](https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed/) by [Stephen Fewer](https://www.rapid7.com/blog/)
 - **[Aug 07 - $???]** [Python in Excel Vulnerability: Root Privilege Escalation & Trusted Records Bypass](https://www.safebreach.com/blog/python-in-excel-vulnerability-root-escalation-cve-2026-45459/) by [Ron Ben Yizhak](https://www.safebreach.com/blog/)
 - **[Aug 06 - $48,000]** [Breaking the M365 Copilot Sandbox with ChatMate](https://zerolabs.rubrik.com/blog/breaking-m365-copilot-sandbox-chatmate) by [Ori Lahav](https://zerolabs.rubrik.com/)
