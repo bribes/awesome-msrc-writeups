@@ -248,6 +248,8 @@ date,bounty,title,url,author,author-url,type,tweeted,archive-url
 2026-10-13,?,CVE-2026-83736: Windows Kernel Elevation of Privilege Vulnerability,https://cbagriacik.github.io/cve/CVE-2026-83736/,Coşkun Bağrıaçık,https://cbagriacik.github.io/,blog,false,?
 2026-10-13,?,CVE-2026-85817 / CVE-2026-96251: Microsoft PowerShell Remote Code Execution Vulnerability,https://cbagriacik.github.io/cve/CVE-2026-96251/,Coşkun Bağrıaçık,https://cbagriacik.github.io/,blog,false,?
 2026-10-13,?,CVE-2026-96960: .NET and Visual Studio Denial of Service Vulnerability,https://cbagriacik.github.io/cve/CVE-2026-96960/,Coşkun Bağrıaçık,https://cbagriacik.github.io/,blog,false,?
+2026-10-13,?,CVE-2026-70161: .NET Elevation of Privilege Vulnerability,https://cbagriacik.github.io/cve/CVE-2026-70161/,Coşkun Bağrıaçık,https://cbagriacik.github.io/,blog,false,?
+2026-10-13,?,CVE-2026-96225: .NET Elevation of Privilege Vulnerability,https://cbagriacik.github.io/cve/CVE-2026-96225/,Coşkun Bağrıaçık,https://cbagriacik.github.io/,blog,false,?
 2026-10-13,0,Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572),https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/,Johann Rehberger,https://x.com/wunderwuzzi,blog,false,?
 2026-10-23,?,AuthMask: We Made Microsoft Authenticator Hand Over Tokens to an App with Zero Permissions,https://enclave.ai/blog/authmask-we-made-microsoft-authenticator-hand-over-tokens,Ofek Levin,https://enclave.ai/research,blog,false,?
 2026-10-23,?,"Signed, Sealed, and Relayed, NTLM-style: Bypassing LDAP Signing Through Reauthentication",https://specterops.io/blog/2026/10/23/ldap-signing-bypass-ntlm-relay/,Raj Patel,https://specterops.io/blog/,blog,false,?
