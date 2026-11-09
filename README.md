@@ -2,7 +2,7 @@
 
 🐛 A curated catalog of original, finder-authored security research involving Microsoft products, services, and the Microsoft Security Response Center (MSRC).
 
-**253 writeups and talks. Latest publication: 2026-10-28.**
+**254 writeups and talks. Latest publication: 2026-10-28.**
 
 Originally based on [Awesome Google VRP Writeups](https://github.com/xdavidhu/awesome-google-vrp-writeups).
 
@@ -34,6 +34,7 @@ Found a missing technical writeup from the researcher or team that discovered th
 - **[Aug 24 - $2,500]** [leaking Microsoft employee secrets through diagnostic data](https://careful.net/blog/powerlift/) by [careful and Doc](https://careful.net/)
 - **[Aug 19 - $5,000]** [$5,000 Bounty From Microsoft Teams Community Invitation Bypass (CVE-2025-49731)](https://www.kacateknologi.com/en/microsoft-teams-community-invitation-bypass-cve-2025-49731) by [Muhammad Alqi Fahrezi](https://www.kacateknologi.com/)
 - **[Aug 18 - $???]** [CoSnitch: When Your AI Assistant Becomes Its Own Whistleblower](https://www.varonis.com/blog/cosnitch) by [Lior Adar](https://www.varonis.com/blog)
+- **[Aug 15 - $???]** [Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations](https://d3sca.medium.com/microsoft-bounty-hunt-from-contacts-to-invoices-via-guest-user-misconfigurations-efaa8bef73f4) by [Mustafa Mohamed](https://d3sca.medium.com/)
 - **[Aug 15 - $???]** [Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory](https://www.usenix.org/conference/usenixsecurity26/presentation/collins) by [Sam Collins, Tom Chothia, William Burgess, Marius Muench, and David Oswald](https://www.usenix.org/conference/usenixsecurity26)
 - **[Aug 13 - $???]** [Microsoft Configuration Manager RCE 0-Day Exploit Chain (SCCM CVE-2026-47301)](https://medium.com/@omribaso/from-domain-user-to-enterprise-control-microsoft-configuration-manager-rce-0-day-exploit-chain-393c63c680ca) by [Omri Baso](https://medium.com/@omribaso)
 - **[Aug 12 - $???]** [Nice2Meet: We Turned Teams Mobile Meetings Into a Silent Account Takeover](https://enclave.ai/blog/nice2meet-we-turned-teams-mobile-meetings-into-a-silent-account-takeover) by [Yanir Tsarimi](https://enclave.ai/research)
